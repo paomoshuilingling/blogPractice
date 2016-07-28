@@ -5,11 +5,8 @@
 }
 
 body {
-    min-height: 1800px;
     height: 100%;
-    min-width: 1280px;
     width: 100%;
-    margin:0 auto;
 }
 
 #header nav {
@@ -247,7 +244,7 @@ body {
     -moz-border-radius: 80px;
     -webkit-border-radius: 80px;
     border-radius: 80px;
-    position: absolute; /*Í¼Æ¬ÍùÉÏÒç³öÏÔÊ¾*/
+    position: absolute; /*Í¼Æ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾*/
     margin: -50px 0 0 600px;
 }
 
@@ -431,7 +428,7 @@ body {
     margin-top: 10px;
 }
 
-/*ÈÕÀú*/
+/*ï¿½ï¿½ï¿½ï¿½*/
 Input {
     font-family: verdana;
     font-size: 9pt;
@@ -634,7 +631,7 @@ Input {
     font-size: 14px;
 }
 
-/*Ö÷ÌåÄÚÈÝµÄTAB±êÇ©Ò³*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½TABï¿½ï¿½Ç©Ò³*/
 #tabs, .js, .ui, .framework, .application {
     height: 1000px;
     margin-bottom: 10px;
@@ -733,7 +730,7 @@ Input {
     -moz-border-radius: 90px;
     -webkit-border-radius: 90px;
     border-radius: 90px;
-    position: absolute; /*Í¼Æ¬ÍùÉÏÒç³öÏÔÊ¾*/
+    position: absolute; /*Í¼Æ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾*/
     margin: 40px 0 0 580px;
     background-color: #EEEEEE;
 }
@@ -744,7 +741,7 @@ Input {
     -moz-border-radius: 80px;
     -webkit-border-radius: 80px;
     border-radius: 80px;
-    position: absolute; /*Í¼Æ¬ÍùÉÏÒç³öÏÔÊ¾*/
+    position: absolute; /*Í¼Æ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾*/
     margin: 10px 10px 10px 10px;
 }
 
@@ -754,7 +751,7 @@ Input {
     -moz-border-radius: 60px;
     -webkit-border-radius: 60px;
     border-radius: 60px;
-    position: absolute; /*Í¼Æ¬ÍùÉÏÒç³öÏÔÊ¾*/
+    position: absolute; /*Í¼Æ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾*/
     background-color: #EEEEEE;
 }
 
@@ -808,7 +805,7 @@ Input {
     -moz-border-radius: 55px;
     -webkit-border-radius: 55px;
     border-radius: 55px;
-    position: absolute; /*Í¼Æ¬ÍùÉÏÒç³öÏÔÊ¾*/
+    position: absolute; /*Í¼Æ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾*/
     margin: 5px 5px 5px 5px;
     animation-name: x-spin;
     animation-duration: 10s;
@@ -890,6 +887,9 @@ Input {
 #right-about div p img{
     width: 30px;
     height: 30px;
+}
+#right-about div p img:hover{
+    color: #4078c0;
 }
 #right-about div:nth-child(1) p{
      margin-top: 20px;
