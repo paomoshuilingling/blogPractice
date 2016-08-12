@@ -5,11 +5,8 @@
     <meta charset="UTF-8">
     <title>文章</title>
     <link rel="shortcut icon" href="../../design/common/favicon.ico">
-    <link type="text/css" rel="stylesheet" href="../css/common/normalize.css">
-    <link type="text/css" rel="stylesheet" href="../css/common/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="../css/common/common.css">
-    <link type="text/css" rel="stylesheet" href="../css/common/header.css">
-    <link type="text/css" rel="stylesheet" href="../css/common/footer.css">    <link type="text/css" rel="stylesheet" href="../css/article.css">
+    <link type="text/css" rel="stylesheet" href="../css/common.css">
+    <link type="text/css" rel="stylesheet" href="../css/article.css">
 </head>
 
 <body>
@@ -19,7 +16,7 @@
                 <img class="circle1" id="me" src="../../design/me.jpg" />
                 <img id="img" name="github" title="泡沫水灵灵的github，欢迎踩一踩、留言！" src="../../design/icon-github.png" />
                 <a href="about.html">关于</a>
-                <a href="work.html">作品</a>
+                <a href="works.html">作品</a>
                 <a href="article.html">文章</a>
                 <a href="resume.html">首页</a>
                 <div style="clear:both;"></div>
@@ -290,7 +287,7 @@
             <p>
                 <a href="resume.html">首页</a>
                 <a href="article.html">文章</a>
-                <a href="work.html">作品</a>
+                <a href="works.html">作品</a>
                 <a href="about.html">关于</a>
             </p>
             <hr>
@@ -360,10 +357,29 @@
             </div>
         </footer>
     </div>
-    <script type="text/javascript" src="../js/common/jquery.js"></script>
-    <script type="text/javascript" src="../js/common/header.js"></script>
-    <script type="text/javascript" src="../js/common/footer.js"></script>
-    <script type="text/javascript" src="../js/article.js"></script>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        window.onload = function() {
+            //article.html的标签云
+            var tags = document.getElementById("tags");
+            var oa = tags.getElementsByTagName("a");
+            var texttags = new Array("JavScript", "css", "flex", "webGL", "HTML", "Canvas", "ProtoType", "HTML5", "grid", "nodeJS", "CSS3", "jQuery", "Ajax", "ECharts");
+            for (var i = 0, l = oa.length; i < l; i++) {
+                oa[i].style.fontSize = (Math.random() + 0.8) + 'em';
+                oa[i].style.fontWeight = (Math.random() + 1);
+                oa[i].style.color = "rgb(" + parseInt(Math.random() * 255) + "," + parseInt(Math.random() * 255) + "," + parseInt(Math.random() * 255) + ")";
+                $(oa[i]).text(texttags[i]);
+                $(oa[i]).mouseover(function() {
+                    $(this).css("text-shadow", "2px 2px 2px darkmagenta");
+                }).mouseout(function() {
+                    $(this).css("text-shadow", "0 0 0 white");
+                })
+            }
+        }
+    });
+    </script>
 </body>
 
 </html>

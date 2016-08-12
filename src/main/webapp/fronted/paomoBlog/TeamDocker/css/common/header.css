@@ -1,0 +1,42 @@
+#header nav {
+    position: relative;
+    min-height: 80px;
+    min-width: 1225px;
+    width: 100%;
+    height: 100%;
+    background-color: indigo;
+}
+
+#header nav .circle1 {
+    width: 60px;
+    height: 60px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+#header nav img#me {
+    /*position: absolute;*/
+    float: left;
+    margin: 0.5em 0 0 160px;
+}
+
+#header nav img#img {
+    /*position: absolute;*/
+    display: block;
+    float: right;
+    height: 34px;
+    width: 30px;
+    margin: 2.85em 10px 0 102px;
+    cursor: pointer;
+}
+
+#header nav a {
+    /*position: absolute;*/
+    float: right;
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 14px;
+    margin: 4em 28px 5px 0;
+    text-decoration: none;
+}

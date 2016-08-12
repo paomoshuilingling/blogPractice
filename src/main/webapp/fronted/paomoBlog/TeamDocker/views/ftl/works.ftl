@@ -3,14 +3,16 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>作品</title>
-    <link type="text/css" rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../../design/common/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="../css/common.css">
+    <link type="text/css" rel="stylesheet" href="../css/work.css">
 </head>
 <body>
 <div>
     <article id="header">
         <nav>
             <img class="circle1" id="me" src="../../design/me.jpg"/>
-            <img id="img" name="github" src="../../design/icon-github.png"/>
+            <img id="img" name="github" title="泡沫水灵灵的github，欢迎踩一踩、留言！" src="../../design/icon-github.png"/>
             <a href="about.html">关于</a>
             <a href="works.html">作品</a>
             <a href="article.html">文章</a>
@@ -524,7 +526,7 @@
         </ul>
         <div>
             <p>版权信息</p>
-            <img name="github" src="../../design/icon-github.png"/>
+            <img name="github" title="泡沫水灵灵的github，欢迎踩一踩、留言！" src="../../design/icon-github.png"/>
         </div>
     </footer>
 </div>

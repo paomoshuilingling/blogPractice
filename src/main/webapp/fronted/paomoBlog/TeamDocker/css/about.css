@@ -1,0 +1,242 @@
+/***
+****
+    about.html css
+****
+***/
+
+@media (min-width: 1200px)
+.container {
+    width: 1170px;
+}
+@media (min-width: 992px)
+.container {
+    width: 970px;
+}
+@media (min-width: 768px)
+.container {
+    width: 750px;
+}
+.container {
+    background-color: #EEEEEE;
+    height: 2000px;
+}
+
+.container section {
+    position: relative;
+}
+
+.container section div label {
+    position: absolute;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+    text-align: center;
+    left: 630px;
+    /*margin-top: 50px 0 0 490px;*/
+}
+
+.container section .circle3 {
+    width: 180px;
+    height: 180px;
+    -moz-border-radius: 90px;
+    -webkit-border-radius: 90px;
+    border-radius: 90px;
+    position: absolute; /*ͼƬ���������ʾ*/
+    margin: 40px 0 0 580px;
+    background-color: #EEEEEE;
+}
+
+.container section .circle4 {
+    width: 160px;
+    height: 160px;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+    position: absolute; /*ͼƬ���������ʾ*/
+    margin: 10px 10px 10px 10px;
+}
+
+.container section .circle5 {
+    width: 120px;
+    height: 120px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    position: absolute; /*ͼƬ���������ʾ*/
+    background-color: #EEEEEE;
+}
+
+.container section .circle5 label {
+    margin-left: -610px;
+}
+
+.container section .circle5:nth-child(2) {
+    margin: 400px 0 0 610px;
+}
+
+.container section .circle5:nth-child(3) {
+    margin: 680px 0 0 610px;
+}
+
+.container section .circle5:nth-child(3) #lb1 {
+    margin-top: 180px;
+}
+
+.container section .circle5:nth-child(3) #lb2 {
+    margin-top: 250px;
+}
+
+.container section .circle5:nth-child(4) {
+    margin: 1000px 0 0 610px;
+}
+
+.container section .circle5:nth-child(4) #lb3 {
+    margin-top: 180px;
+}
+
+.container section .circle5:nth-child(5) {
+    margin: 1400px 0 0 610px;
+}
+
+.container section .circle5:nth-child(5) #lb4 {
+    margin-top: 180px;
+}
+
+.container section .circle5:nth-child(5) #lb5 {
+    margin-top: 250px;
+}
+
+.container section .circle5:nth-child(5) #lb6 {
+    margin-top: 320px;
+}
+
+.container section .circle6 {
+    width: 110px;
+    height: 110px;
+    -moz-border-radius: 55px;
+    -webkit-border-radius: 55px;
+    border-radius: 55px;
+    position: absolute; /*ͼƬ���������ʾ*/
+    margin: 5px 5px 5px 5px;
+    animation-name: x-spin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /*Safari/Chrome*/
+    -webkit-animation-name: x-spin;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+.container section .circle6:hover{
+    -webkit-animation:10s linear infinite;
+}
+@keyframes x-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes x-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.container section .about{
+    margin: 100px 20px;
+}
+
+#left-about, #right-about {
+    background-color: white;
+    width: 505px;
+    height: 1800px;
+    float: left;
+}
+
+#left-about {
+    margin: 100px 0 30px 160px;
+}
+
+#left-about > div {
+    margin: 380px 20px 0 300px;
+}
+
+#left-about > div:nth-child(1) {
+    margin-top: 120px;
+}
+
+#left-about > div:nth-child(2) {
+    margin-top: 320px;
+}
+
+#left-about > div:nth-child(3) {
+    margin-top: 275px;
+}
+#left-about > div:nth-child(4) {
+    margin-top: 300px;
+}
+#left-about > div:nth-child(5) {
+    margin-top: 375px;
+}
+
+#right-about {
+    margin: 100px 60px 30px 5px;
+}
+
+#right-about div {
+    height: 200px;
+    padding: 100px 0 10px 100px;
+}
+#right-about div p img{
+    width: 30px;
+    height: 30px;
+}
+#right-about div p img:hover{
+    color: #4078c0;
+}
+#right-about div:nth-child(1) p{
+     margin-top: 20px;
+}
+#right-about div:nth-child(2) p{
+    margin: 10px 0 10px 0;
+}
+#right-about div:nth-child(3) {
+    margin: -10px 0 10px 0;
+}
+
+#right-about div:nth-child(3) p {
+    margin-top: 50px;
+}
+
+#right-about div:nth-child(4) p{
+    margin: 10px 40px 0 0;
+}
+#right-about div:nth-child(4) p:nth-child(3){
+    font-size: small;
+}
+#right-about div:nth-child(4) p:first-child {
+    margin-top: 50px;
+}
+#right-about div:nth-child(5) p {
+    margin-top: 10px;
+}
+#right-about div:nth-child(5) p:first-child {
+    margin-top: 140px;
+}
+#right-about div:nth-child(5) p:nth-child(3) {
+    margin-top: 20px;
+}
+#right-about div:nth-child(5) p:nth-child(5) {
+    margin-top: 20px;
+}
