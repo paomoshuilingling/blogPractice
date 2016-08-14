@@ -61,13 +61,6 @@
     text-align: center;
 }
 
-#article section article header h1 {
-    margin-bottom: 10px;
-    font-weight: bolder;
-    font-size: 12px;
-    color: #333333;
-}
-
 #article section article header a {
     text-decoration: none;
     margin-bottom: 10px;
@@ -80,6 +73,10 @@
     margin-bottom: 10px;
     text-indent: 2em;
     font-size: 12px;
+}
+
+#article section article p span+span{
+    margin-left: -20px;
 }
 
 #article section article footer {
