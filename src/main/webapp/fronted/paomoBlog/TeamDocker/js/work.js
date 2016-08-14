@@ -22,20 +22,20 @@ $(function () {
                 for (var j = 0, l = tab_content.length; j < l; j++) {
                     tab_a[j].style.borderBottom = "1px solid #000000";
                     tab_a[j].style.borderTopColor = color[j];
-                    tab_content[j].style.zIndex = 0;
+                    tab_content[j].style.display = "none";
                 }
                 tab_a[i].style.borderBottom = "0";
                 tab_a[i].style.borderTopColor = colorhover[i];
-                tab_content[i].style.zIndex = 1;
+                tab_content[i].style.display = "block";
                 pubuliu(i);
             }
 
             //瀑布流函数
-            function pubuliu(i) {
-                var lis = $("." + classname[i]).children("ul").children("li");
+            function pubuliu(j) {
+                var lis = $("." + classname[j]).children("ul").children("li");
                 var li_height = {C1: [], C2: [], C3: [], C4: []};
                 var li_imgtotal = lis.children("canvas");
-                var lisspan = $("." + classname[i]).children("ul").children("li").children("ul");
+                var lisspan = $("." + classname[j]).children("ul").children("li").children("ul");
                 for (var i = 0; i < lis.length; i++) {
                     //li的高度和宽度
                     lis.eq(i).css("height", parseInt(200 + Math.random() * 50 + "px"));
@@ -45,9 +45,9 @@ $(function () {
                     var lih = parseInt(150 + Math.random() * 50);
                     li_imgtotal.eq(i).css("width", liw + "px");
                     li_imgtotal.eq(i).css("height", lih + "px");
-                    li_imgtotal[i].id = "pubuliu" + "" + i;
+                    li_imgtotal[i].id = "pubuliu" + i;
                     var img = new Image();
-                    img.src = '../../design/pubuliu/' + classname[i]+"/" + i + '.jpg';
+                    img.src = '../../design/pubuliu/' + classname[j]+"/" + i + '.jpg';
                     draw2(li_imgtotal[i].id, img, liw, lih);
                     var col = i % 4;
                     switch (col) {

@@ -1,0 +1,22 @@
+
+  "name": "paomo",
+  "version": "1.0.0",
+  "description": "熊宇的个人网站",
+  "main": "blog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paomoshuilingling/blogPractice.git"
+  },
+  "author": "paomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paomoshuilingling/blogPractice/issues"
+  },
+  "homepage": "https://github.com/paomoshuilingling/blogPractice#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

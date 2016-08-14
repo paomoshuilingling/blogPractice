@@ -4,28 +4,28 @@
 ****
 ***/
 #article {
-    height: 1600px;
     background-color: #EEEEEE;
+    font-family: "Avenir Next",Helvetica,Arial,"Lantinghei SC","Microsoft YaHei",sans-serif;
 }
 
-#article section, #works section {
+#article section {
     float: left;
-    width: 70%;
-    margin: 20px 0 100px 160px;
+    width: 65%;
+    margin: 20px 0 100px 100px;
 }
 
 #article section article {
-    height: 450px;
     margin-bottom: 10px;
     background: white;
-    padding-right: 20px;
+    padding: 10px 20px 20px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
 #article section article aside {
-    position: relative;
     float: left;
     width: 55px;
-    margin-left: -40px;
+    margin-left: -60px;
 }
 
 #article section article aside ul {
@@ -39,10 +39,14 @@
     line-height: 45px;
     text-align: center;
     color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    opacity: 0.5;
 }
 
 #article section article aside ul li:nth-child(1) {
     background-color: darkmagenta;
+    margin-bottom: 5px;
 }
 
 #article section article aside ul li:nth-child(2) {
@@ -54,6 +58,7 @@
     font-size: 16px;
     color: darkmagenta;
     font-weight: bolder;
+    text-align: center;
 }
 
 #article section article header h1 {
@@ -63,8 +68,12 @@
     color: #333333;
 }
 
-#article section article header h2 {
+#article section article header a {
+    text-decoration: none;
     margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    color: darkmagenta;
 }
 
 #article section article p {
@@ -74,31 +83,38 @@
 }
 
 #article section article footer {
-    position: relative;
-    margin: 290px 0 0 0;
     float: right;
 }
 
 #page {
-    width: 650px;
     padding-left: 130px;
 }
-
-#page a {
-    text-decoration: none;
+#page ul li{
+    list-style: none;
     float: left;
+}
+#page ul li{
+    text-decoration: none;
     height: 40px;
     width: 50px;
     text-align: center;
     background-color: white;
     margin: 10px 10px 0 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
-#page a:hover {
+#page ul li:hover {
     background-color: darkorchid;
+    text-decoration: none;
 }
 
-#page a span {
+#page ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+#page ul li a span {
     display: block;
     margin: 10px auto;
 }
@@ -110,14 +126,14 @@
     margin-right: 50px;
     margin-top: 35px;
 }
-
 #search {
-    width: 265px;
+    width: 20%;
     height: 160px;
-    padding: 30px 0 34px 10px;
+    padding: 30px 15px 34px 15px;
     background: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
-
 #search .su {
     position: relative;
     height: 41px;
@@ -138,7 +154,7 @@
 }
 
 #search .go {
-    margin: 0 20px 0 -8px;
+    margin: 0 10px 0 -8px;
     height: 45px;
     width: 50px;
     border-left: none;
@@ -146,7 +162,6 @@
     font-size: 18px;
     color: white;
 }
-
 #aside .href {
     max-width: 266px;
     background: white;
@@ -195,6 +210,8 @@ Input {
     text-decoration: none;
     width: 265px;
     font-size: 9pt;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
 .CalendarTD {
@@ -310,7 +327,8 @@ Input {
     max-width: 264px;
     margin: 10px 0 0 0;
     background-color: white;
-
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
 #tags label {
@@ -320,7 +338,7 @@ Input {
 }
 
 .tags {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .tags li {

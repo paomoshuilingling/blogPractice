@@ -10,20 +10,25 @@
     <link type="text/css" rel="stylesheet" href="../css/common/common.css">
     <link type="text/css" rel="stylesheet" href="../css/common/header.css">
     <link type="text/css" rel="stylesheet" href="../css/common/footer.css">    <link type="text/css" rel="stylesheet" href="../css/article.css">
+    <script type="text/javascript" src="../js/common/jquery.js"></script>
 </head>
-
 <body>
     <div>
         <article id="header">
             <nav>
                 <img class="circle1" id="me" src="../../design/me.jpg" />
-                <img id="img" name="github" title="泡沫水灵灵的github，欢迎踩一踩、留言！" src="../../design/icon-github.png" />
-                <a href="about.html">关于</a>
-                <a href="work.html">作品</a>
-                <a href="article.html">文章</a>
-                <a href="resume.html">首页</a>
+                <ul class="navRight">
+                    <li><a href="resume.html">首页</a></li>
+                    <li><a href="article.html">文章</a></li>
+                    <li><a href="work.html">作品</a></li>
+                    <li><a href="about.html">关于</a></li>
+                    <li><img id="img" name="github" title="泡沫水灵灵的github，欢迎踩一踩、留言！" src="../../design/icon-github.png" /></li>
+                </ul>
                 <div style="clear:both;"></div>
             </nav>
+            <div id="hometitle">
+                <img class="background" src="">
+            </div>
         </article>
         <article id="article">
             <section>
@@ -35,13 +40,19 @@
                         </ul>
                     </aside>
                     <header>
-                        <h2>这里是文章标题</h2>
-                        <span>+</span>
-                        <h1>这里是副标题</h1>
+                        <a href="https://www.anotherhome.net/1711#more-1711" target="_blank" class="articleTitle">这里是文章标题</a>
+                        <p class="articleMeta">
+                            <i class="fa fa-heart-o"></i>
+                            发表于 2016年4月1日 • 
+                            <i class="fa fa-eye"></i>
+                            5,246 次围观 • 
+                            <i class="fa fa-comment-o"></i>
+                            活捉 50 条            
+                        </p>
                     </header>
                     <p>这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文。</p>
                     <footer>
-                        <label>xiongyu 发表于 2016年3月11日</label>
+
                     </footer>
                 </article>
                 <article>
@@ -52,12 +63,18 @@
                         </ul>
                     </aside>
                     <header>
-                        <h2>这里是文章标题</h2>
-                        <h1>这里是副标题</h1>
+                        <a href="https://www.anotherhome.net/1711#more-1711" target="_blank" class="articleTitle">这里是文章标题</a>
+                        <p class="articleMeta">
+                            <i class="fa fa-heart-o"></i>
+                            发表于 2016年4月1日 • 
+                            <i class="fa fa-eye"></i>
+                            5,246 次围观 • 
+                            <i class="fa fa-comment-o"></i>
+                            活捉 50 条            
+                        </p>
                     </header>
                     <p>这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文。</p>
                     <footer>
-                        <label>xiongyu 发表于 2016年3月21日</label>
                     </footer>
                 </article>
                 <article>
@@ -68,31 +85,105 @@
                         </ul>
                     </aside>
                     <header>
-                        <h2>这里是文章标题</h2>
-                        <h1>这里是副标题</h1>
+                        <a href="https://www.anotherhome.net/1711#more-1711" target="_blank" class="articleTitle">这里是文章标题</a>
+                        <p class="articleMeta">
+                            <i class="fa fa-heart-o"></i>
+                            发表于 2016年4月1日 • 
+                            <i class="fa fa-eye"></i>
+                            5,246 次围观 • 
+                            <i class="fa fa-comment-o"></i>
+                            活捉 50 条            
+                        </p>
                     </header>
                     <p>这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文。</p>
                     <footer>
-                        <label>xiongyu 发表于 2016年4月21日</label>
+                    </footer>
+                </article>
+                <article>
+                    <aside>
+                        <ul>
+                            <li>4.21</li>
+                            <li>HTML</li>
+                        </ul>
+                    </aside>
+                    <header>
+                        <a href="https://www.anotherhome.net/1711#more-1711" target="_blank" class="articleTitle">这里是文章标题</a>
+                        <p class="articleMeta">
+                            <i class="fa fa-heart-o"></i>
+                            发表于 2016年4月1日 • 
+                            <i class="fa fa-eye"></i>
+                            5,246 次围观 • 
+                            <i class="fa fa-comment-o"></i>
+                            活捉 50 条            
+                        </p>
+                    </header>
+                    <p>这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文。</p>
+                    <footer>
+                    </footer>
+                </article>
+                <article>
+                    <aside>
+                        <ul>
+                            <li>4.21</li>
+                            <li>HTML</li>
+                        </ul>
+                    </aside>
+                    <header>
+                        <a href="https://www.anotherhome.net/1711#more-1711" target="_blank" class="articleTitle">这里是文章标题</a>
+                        <p class="articleMeta">
+                            <i class="fa fa-heart-o"></i>
+                            发表于 2016年4月1日 • 
+                            <i class="fa fa-eye"></i>
+                            5,246 次围观 • 
+                            <i class="fa fa-comment-o"></i>
+                            活捉 50 条            
+                        </p>
+                    </header>
+                    <p>这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文。</p>
+                    <footer>
+                    </footer>
+                </article>
+                <article>
+                    <aside>
+                        <ul>
+                            <li>4.21</li>
+                            <li>HTML</li>
+                        </ul>
+                    </aside>
+                    <header>
+                        <a href="https://www.anotherhome.net/1711#more-1711" target="_blank" class="articleTitle">这里是文章标题</a>
+                        <p class="articleMeta">
+                            <i class="fa fa-heart-o"></i>
+                            发表于 2016年4月1日 • 
+                            <i class="fa fa-eye"></i>
+                            5,246 次围观 • 
+                            <i class="fa fa-comment-o"></i>
+                            活捉 50 条            
+                        </p>
+                    </header>
+                    <p>这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文,这里是正文。</p>
+                    <footer>
                     </footer>
                 </article>
                 <footer id="page">
-                    <a href="#"><span>第一页</span></a>
-                    <a href="#"><span>上一页</span></a>
-                    <a href="#"><span>1</span></a>
-                    <a href="#"><span>2</span></a>
-                    <a href="#"><span>3</span></a>
-                    <a href="#"><span>4</span></a>
-                    <a href="#"><span>……</span></a>
-                    <a href="#"><span>下一页</span></a>
-                    <a href="#"><span>最后页</span></a>
+                    <ul>
+                        <li><a href="#"><span>第一页</span></a></li>
+                        <li><a href="#"><span>上一页</span></a></li>
+                        <li><a href="#"><span>1</span></a></li>
+                        <li><a href="#"><span>2</span></a></li>
+                        <li><a href="#"><span>3</span></a></li>
+                        <li><a href="#"><span>4</span></a></li>
+                        <li><a href="#"><span>……</span></a></li>
+                        <li><a href="#"><span>下一页</span></a></li>
+                        <li><a href="#"><span>最后页</span></a></li>
+                    </ul> 
                 </footer>
             </section>
             <aside id="aside">
                 <span id="search">
                     <span class="search-icon"></span>
-                <input class="su" type="text" placeholder="        Keywords" />
-                <span><input class="go" type="submit" value="GO"/></span>
+                    <input class="su" type="text" placeholder="        Keywords" />
+                    <input class="go" type="submit" value="GO"/>
                 </span>
                 <ul class="href">
                     <li><a href="#">HTML</a></li>
@@ -100,6 +191,7 @@
                     <li><a href="#">JavaScript</a></li>
                     <li><a href="#">其他文章</a></li>
                 </ul>
+                <embed wmode="transparent" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.swf" quality="high" bgcolor="#ffffff" width="auto" height="70px" name="honehoneclock" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
                 <div class="calendar">
                     <Script LANGUAGE="JavaScript">
                     var months = new Array("一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "十二");
@@ -295,7 +387,7 @@
             </p>
             <hr>
             <ul>
-                <li id="stu">
+                <li class="col-md-2" id="stu">
                     <h4>网站推荐</h4>
                     <ul>
                         <li><a href="http://www.zhangxinxu.com/" target="_blank">张鑫旭-鑫空间-鑫生活</a></li>
@@ -307,7 +399,7 @@
                         <li><a href="http://blog.jobbole.com/" target="_blank">博客-伯乐在线</a></li>
                     </ul>
                 </li>
-                <li id="link">
+                <li class="col-md-2" id="link">
                     <h4>友情链接</h4>
                     <ul>
                         <li><a href="http://blog.csdn.net/u010147288" target="_blank">泡沫水灵灵的博客</a></li>
@@ -320,7 +412,7 @@
                         <li><a href="http://gold.xitu.io/#/" target="_blank">稀土掘金</a></li>
                     </ul>
                 </li>
-                <li id="study">
+                <li class="col-md-2" id="study">
                     <h4>学习资料</h4>
                     <ul>
                         <li><a href="http://qun.jikexueyuan.com/web/topic/274" target="_blank">前端干货分享</a></li>
@@ -331,7 +423,7 @@
                         <li><a href="http://fis.baidu.com/" target="_blank">FIS3前端工程构建工具</a></li>
                     </ul>
                 </li>
-                <li id="stud">
+                <li class="col-md-2" id="stud">
                     <h4>书屋必备</h4>
                     <ul>
                         <li><a href="resume.html" target="_blank">JavaScript高级程序设计</a></li>
@@ -343,7 +435,7 @@
                         <li><a href="resume.html" target="_blank">剑指offer</a></li>
                     </ul>
                 </li>
-                <li id="friendlink">
+                <li class="col-md-2" id="friendlink">
                     <h4>轻松天地</h4>
                     <ul>
                         <li><a href="http://bbs.jiyifa.cn/" target="_blank">记忆法论坛</a></li>
@@ -355,12 +447,13 @@
                 </li>
             </ul>
             <div>
-                <p>版权信息</p>
+                <p>版权信息：by paomo</p>
                 <img name="github" title="泡沫水灵灵的github，欢迎踩一踩、留言！" src="../../design/icon-github.png" />
             </div>
         </footer>
     </div>
-    <script type="text/javascript" src="../js/common/jquery.js"></script>
+    
+    <script type="text/javascript" src="../js/common/bootstrap.js"></script>
     <script type="text/javascript" src="../js/common/header.js"></script>
     <script type="text/javascript" src="../js/common/footer.js"></script>
     <script type="text/javascript" src="../js/article.js"></script>

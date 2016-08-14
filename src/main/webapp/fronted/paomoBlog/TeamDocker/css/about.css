@@ -38,17 +38,19 @@
 .container section .circle3 {
     width: 180px;
     height: 180px;
+    z-index: 1;
     -moz-border-radius: 90px;
     -webkit-border-radius: 90px;
     border-radius: 90px;
     position: absolute; /*ͼƬ���������ʾ*/
-    margin: 40px 0 0 580px;
+    margin: 40px 0 0 42%;
     background-color: #EEEEEE;
 }
 
 .container section .circle4 {
     width: 160px;
     height: 160px;
+    z-index: 1;
     -moz-border-radius: 80px;
     -webkit-border-radius: 80px;
     border-radius: 80px;
@@ -59,11 +61,13 @@
 .container section .circle5 {
     width: 120px;
     height: 120px;
+    z-index: 1;
     -moz-border-radius: 60px;
     -webkit-border-radius: 60px;
     border-radius: 60px;
     position: absolute; /*ͼƬ���������ʾ*/
     background-color: #EEEEEE;
+    margin-left: 44.5%;
 }
 
 .container section .circle5 label {
@@ -71,31 +75,34 @@
 }
 
 .container section .circle5:nth-child(2) {
-    margin: 400px 0 0 610px;
+    margin-top: 400px;
 }
 
 .container section .circle5:nth-child(3) {
-    margin: 680px 0 0 610px;
+    margin-top: 680px;
 }
 
 .container section .circle5:nth-child(3) #lb1 {
-    margin-top: 180px;
+    margin-top: 178px;
 }
 
 .container section .circle5:nth-child(3) #lb2 {
-    margin-top: 250px;
+    margin-top: 245px;
 }
 
 .container section .circle5:nth-child(4) {
-    margin: 1000px 0 0 610px;
+    margin-top: 1000px;
 }
 
-.container section .circle5:nth-child(4) #lb3 {
+.container section .circle5:nth-child(4) #lb31 {
     margin-top: 180px;
+}
+.container section .circle5:nth-child(4) #lb32 {
+    margin-top: 267px;
 }
 
 .container section .circle5:nth-child(5) {
-    margin: 1400px 0 0 610px;
+    margin-top: 1400px;
 }
 
 .container section .circle5:nth-child(5) #lb4 {
@@ -113,6 +120,7 @@
 .container section .circle6 {
     width: 110px;
     height: 110px;
+    z-index: 1;
     -moz-border-radius: 55px;
     -webkit-border-radius: 55px;
     border-radius: 55px;
@@ -154,89 +162,99 @@
     }
 }
 .container section .about{
-    margin: 100px 20px;
+    margin: 10px 35px;
 }
 
-#left-about, #right-about {
+.left-about, .right-about {
     background-color: white;
     width: 505px;
     height: 1800px;
     float: left;
 }
 
-#left-about {
-    margin: 100px 0 30px 160px;
+.left-about {
+    margin: 100px 0 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
 }
 
-#left-about > div {
-    margin: 380px 20px 0 300px;
+.left-about > div {
+    margin: 380px 30px 0 250px;
 }
 
-#left-about > div:nth-child(1) {
-    margin-top: 120px;
+.left-about > div:nth-child(1) {
+    margin-top: 150px;
 }
 
-#left-about > div:nth-child(2) {
-    margin-top: 320px;
+.left-about > div:nth-child(2) {
+    margin-top: 285px;
 }
 
-#left-about > div:nth-child(3) {
-    margin-top: 275px;
+.left-about > div:nth-child(3) {
+    margin-top: 270px;
 }
-#left-about > div:nth-child(4) {
+.left-about > div:nth-child(4) {
     margin-top: 300px;
 }
-#left-about > div:nth-child(5) {
+.left-about > div:nth-child(5) {
     margin-top: 375px;
 }
 
-#right-about {
-    margin: 100px 60px 30px 5px;
+.right-about {
+    margin: 100px 25px 30px 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
 }
 
-#right-about div {
-    height: 200px;
-    padding: 100px 0 10px 100px;
+.right-about .rightContent {
+    height: auto;
+    padding: 100px 10px 38px 100px;
 }
-#right-about div p img{
+.right-about .rightContent p img{
     width: 30px;
     height: 30px;
 }
-#right-about div p img:hover{
+.right-about .rightContent p img:hover{
     color: #4078c0;
 }
-#right-about div:nth-child(1) p{
+.right-about .rightContent:nth-child(1) p{
      margin-top: 20px;
 }
-#right-about div:nth-child(2) p{
+.right-about .rightContent:nth-child(2) p{
     margin: 10px 0 10px 0;
 }
-#right-about div:nth-child(3) {
+.right-about .rightContent:nth-child(3) {
     margin: -10px 0 10px 0;
 }
 
-#right-about div:nth-child(3) p {
+.right-about .rightContent:nth-child(3) p {
     margin-top: 50px;
 }
-
-#right-about div:nth-child(4) p{
+.right-about .rightContent:nth-child(4) {
+    margin: 30px 0 10px 0;
+}
+.right-about .rightContent:nth-child(4) p{
     margin: 10px 40px 0 0;
 }
-#right-about div:nth-child(4) p:nth-child(3){
-    font-size: small;
+.right-about .rightContent:nth-child(4) p:first-child {
+    margin-top: 45px;
 }
-#right-about div:nth-child(4) p:first-child {
-    margin-top: 50px;
+.right-about .rightContent:nth-child(4) p:nth-child(3) {
+    margin-top: 35px;
 }
-#right-about div:nth-child(5) p {
+.right-about .rightContent:nth-child(5) p {
     margin-top: 10px;
 }
-#right-about div:nth-child(5) p:first-child {
-    margin-top: 140px;
+.right-about .rightContent:nth-child(5) p:first-child {
+    margin-top: 125px;
 }
-#right-about div:nth-child(5) p:nth-child(3) {
+.right-about .rightContent:nth-child(5) p:nth-child(3) {
     margin-top: 20px;
 }
-#right-about div:nth-child(5) p:nth-child(5) {
+.right-about .rightContent:nth-child(5) p:nth-child(5) {
     margin-top: 20px;
 }

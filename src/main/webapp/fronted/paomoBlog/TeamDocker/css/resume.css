@@ -3,23 +3,6 @@
     resume.html css
 ****
 ***/
-#hometitle {
-    display: block;
-    height: 569px;
-    width: 1280px;
-    overflow: hidden;
-}
-
-#hometitle img {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    min-width: 1280px;
-    min-height: 560px;
-    max-width: 100%;
-    max-height: 100%;
-}
-
 #title {
     float: right;
     width: 34%;
@@ -50,7 +33,7 @@
 #content {
     background-color: #EEEEEE;
     padding-top: 20px;
-    height: 500px;
+    height: 520px;
 }
 
 #content ul {
@@ -66,6 +49,8 @@
     width: 320px;
     height: 400px;
     background: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
 #content ul > li:first-child {
@@ -94,22 +79,22 @@
 
 #introduce {
     overflow: hidden;
-    /*position: relative;*/
     clear: both;
+    background-color: #fff;
 }
 
-#introduce p {
+#introduce .introContent p {
     margin: 20px auto;
     font-size: 14px;
     width: 600px;
     text-indent: 2em;
 }
 
-#introduce h1 {
+#introduce .introContent h1 {
     font-family: Century Gothic;
     font-size: 20px;
     text-align: center;
-    margin-top: 160px;
+    margin-top: 150px;
 }
 
 #introduce .circle2 {
@@ -119,5 +104,6 @@
     -webkit-border-radius: 80px;
     border-radius: 80px;
     position: absolute; /*ͼƬ���������ʾ*/
-    margin: -50px 0 0 46%;
+    margin-top: -50px;
+    margin-left: 44.5%;
 }

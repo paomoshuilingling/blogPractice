@@ -1,10 +1,14 @@
+#header {
+    font-family: "Avenir Next", Helvetica, Arial, "Lantinghei SC", "Microsoft YaHei", sans-serif;
+}
+
 #header nav {
-    position: relative;
-    min-height: 80px;
+    position: fixed;
+    min-height: 70px;
     min-width: 1225px;
     width: 100%;
-    height: 100%;
-    background-color: indigo;
+    z-index: 2;
+    background-image: -webkit-linear-gradient(left top, rgba(59, 44, 70, 0.6), rgba(40, 42, 44, 0.6));
 }
 
 #header nav .circle1 {
@@ -15,28 +19,51 @@
     border-radius: 30px;
 }
 
-#header nav img#me {
-    /*position: absolute;*/
-    float: left;
-    margin: 0.5em 0 0 160px;
+#header nav .handLove {
+    width: 55px;
+    height: 55px;
+    margin-top: 5px;
 }
 
-#header nav img#img {
-    /*position: absolute;*/
-    display: block;
+#header nav .navRight {
     float: right;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+#header nav .navRight>li {
+    float: left;
+    list-style: none;
+    height: 38px;
+    line-height: 38px;
+}
+
+#header nav .navRight>li>a {
+    font-family: 'Avenir Next', Helvetica, Arial, 'Lantinghei SC', 'Microsoft YaHei', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding: 0 12px;
+}
+
+#header nav img#me {
+    float: left;
+    margin: 5px 10px 0 102px;
+}
+
+#header nav .navRight li:last-child img {
     height: 34px;
     width: 30px;
-    margin: 2.85em 10px 0 102px;
+    margin-left: 100px;
     cursor: pointer;
 }
 
-#header nav a {
-    /*position: absolute;*/
-    float: right;
-    font-family: sans-serif;
-    color: aliceblue;
-    font-size: 14px;
-    margin: 4em 28px 5px 0;
-    text-decoration: none;
+#hometitle {
+    height: 569px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hometitle img {
+    width: 100%;
+    height: 560px;
 }
