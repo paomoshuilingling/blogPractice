@@ -1,0 +1,65 @@
+#footer {
+    clear: both;
+    overflow: hidden;
+    color: aliceblue;
+    font-family: sans-serif;
+    background: black;
+    min-height: 360px;
+    height:100%;
+    min-width: 1225px;
+    font-size: 12px;
+    font-family: "Avenir Next",Helvetica,Arial,"Lantinghei SC","Microsoft YaHei",sans-serif;
+}
+
+#footer hr {
+    border: 1px solid #333333;
+    margin-top: 0;
+}
+
+#footer p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#footer p a {
+    text-decoration: none;
+    color: aliceblue;
+}
+#footer>ul>li:first-child{
+    margin-left: 70px;
+}
+#footer ul li {
+    width: 17%;
+    list-style: none;
+    float: left;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#footer ul li ul {
+    /*padding-left: 5px;*/
+}
+
+#footer ul li ul li {
+    float: none;
+    margin: 10px 0;
+    width:220px;
+}
+
+#footer ul li ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#footer div {
+    clear: both;
+    display: block;
+}
+
+#footer div img {
+    display: block;
+    height: 34px;
+    width: 30px;
+    margin: 0px auto;
+    cursor: pointer;
+}

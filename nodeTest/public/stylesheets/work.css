@@ -1,0 +1,181 @@
+/***
+****
+    works.html css
+****
+***/
+#works {
+    background-color: #EEEEEE
+}
+
+#works section {
+    float: left;
+    margin: 35px 0 100px 0;
+}
+
+#top {
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+
+}
+
+#top label {
+    font-size: 16px;
+    color: black;
+    margin-left: 10px;
+}
+
+#top ol {
+    margin: 20px 10px;
+}
+
+#top ol li {
+    list-style: none;
+    float: left;
+}
+
+#top ol li canvas {
+    float: left;
+    line-height: 30px;
+}
+
+#top ol li p {
+    float: right;
+    line-height: 19px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+/*�������ݵ�TAB��ǩҳ*/
+#tabs, .js, .ui, .framework, .application {
+    height: 1000px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#tabs a {
+    background: white;
+    height: 25px;
+    border-right: 1px solid darkgrey;
+    display: block;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 20px 20px 20px;
+    border-top: 5px solid;
+}
+#tabs a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+#tabs a:nth-child(5) {
+    border-right: 0px solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+
+#tabs > div {
+    position: absolute;
+    height: 900px;
+    width: 100%;
+    display: block;
+    top: 60px;
+    padding: 30px 20px;
+    background: #FFFFFF;
+    border-top: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+
+#tabs .all,.js,.ui,.framework,.application {
+    margin: 30px 0 0 0;
+}
+
+#tabs ul {
+    padding: 10px;
+}
+
+#tabs .all > ul > li,.js > ul > li ,.ui> ul > li,.framework> ul > li,.application> ul > li{
+    list-style: none;
+    position: absolute;
+    width: 175px;
+    margin: 0 5px 5px 0;
+}
+
+#tabs .all > ul > li > ul,.js > ul > li > ul,.ui> ul > li > ul,.framework> ul > li > ul,.application> ul > li > ul {
+    display: block;
+}
+#tabs ul > li > ul>.workFlag:first-child{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 60px;
+    height: 60px;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 20px;
+    -webkit-border-radius: 30px;
+    text-align: center;
+    line-height: 60px;
+}
+#tabs ul > li > ul>h2{
+    display: inline;
+}
+
+#loading {
+    line-height: 40px;
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+
+#loading:hover{
+    cursor: pointer;
+}
+
+#loading span {
+
+}
+
+#works #aside{
+    float: left;
+    margin-top: 125px;
+    height: 380px;
+}
+
+#works #aside #search {
+    padding: 30px 10px 34px 10px;
+    background: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#search .su {
+    height: 41px;
+    width: 175px;
+}
+
+#search .go {
+    margin-left: -5px;
+    height: 45px;
+    width: 50px;
+    border-left: none;
+    background-color: darkgray;
+    font-size: 18px;
+    color: white;
+}

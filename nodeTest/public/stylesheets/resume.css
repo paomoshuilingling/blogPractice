@@ -1,0 +1,104 @@
+/***
+****
+    resume.html css
+****
+***/
+#title {
+    float: right;
+    width: 34%;
+    min-height: 100px;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0.7) 100%);
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0.7) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0.7) 100%);
+    background-image: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0.7) 100%);
+    color: indigo;
+    margin: 26em 7em 0 0;
+    padding: 10px 10px 30px 10px;
+}
+
+#title h1 {
+    float: right;
+    font-size: 14px;
+}
+
+#title p {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 150%;
+    text-indent: 2em;
+    float: left;
+}
+
+#content {
+    background-color: #EEEEEE;
+    padding-top: 35px;
+    height: 580px;
+}
+
+#content ul {
+    list-style: none;
+}
+
+#content ul li {
+    float: left;
+}
+#content ul li .itemContent{
+    height: 460px;
+    background: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#content ul li canvas {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    height: 250px;
+    width: 300px;
+}
+
+#content ul li canvas:hover {
+    cursor: pointer;
+
+}
+
+#content ul li p {
+    font-size: 12px;
+    line-height: 170%;
+    padding: 5px 30px 25px 30px;
+    text-indent: 2em;
+}
+
+#introduce {
+    overflow: hidden;
+    clear: both;
+    background-color: #fff;
+}
+
+#introduce .introContent p {
+    margin: 20px auto;
+    font-size: 14px;
+    width: 600px;
+    text-indent: 2em;
+}
+
+#introduce .introContent h1 {
+    font-family: Century Gothic;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#introduce .image{
+    margin: 0 auto;
+    width: 160px;
+}
+#introduce .circle2 {
+    height: 160px;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+    position: absolute; /*ͼƬ���������ʾ*/
+    margin-top: -50px;
+}
