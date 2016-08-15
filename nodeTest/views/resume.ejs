@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>泡沫的个人网站</title>
+    <link rel="shortcut icon" href="/images/common/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/common/normalize.css">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/common/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/common/common.css">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/resume.css">
+</head>
+
+<body>
+<div>
+    <%- include header %>
+    <section>
+        <div class="container" id="content">
+            <ul class="row">
+                <li class="col-md-4">
+                    <div class="itemContent">
+                        <canvas id="1"></canvas>
+                        <p>热爱旅行，热爱自拍。</p>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="itemContent">
+                        <canvas id="2"></canvas>
+                        <p>热爱前端，开发</p>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="itemContent">
+                        <canvas id="3"></canvas>
+                        <p>热爱动漫</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="introduce">
+            <div class="image">
+                <img class="circle2" src="/images/common/me.jpg"/></div>
+            <div class="introContent">
+                <h1>Hi,I'm xiongyu</h1>
+                <p>我是一名前端开发者，在学习新知识的时候我们需要量力而为，把一个兴趣经过一定时间的学习、研究转化为自己的知识后再去转向下一个兴趣，，甚至做到学而时习之，这样才可以年年有鱼，年年有余。</p>
+            </div>
+        </div>
+    </section>
+    <%- include footer %>
+</div>
+<script type="text/javascript" src="/javascripts/common/jquery.js"></script>
+<script type="text/javascript" src="/javascripts/common/bootstrap.js"></script>
+<script type="text/javascript" src="/javascripts/resume.js"></script>
+</body>
+
+</html>
