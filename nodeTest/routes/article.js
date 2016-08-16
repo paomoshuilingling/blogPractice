@@ -8,14 +8,14 @@ article.get('/', function(req, res, next) {
 });
 
 article.get('/update', function (req, res, next) {
-  res.render('updateArticle');
+  res.render('updateArticleInfo');
 });
 
 article.get('/add', function (req, res, next) {
-  res.render('addArticle');
+  res.render('addArticleInfo');
 });
 
-article.get('/addArticle', function (req, res, next) {
+article.post('/addArticle', function (req, res, next) {
   articleDao.add(req, res, next);
 });
 

@@ -8,11 +8,11 @@ work.get('/', function (req, res, next) {
 });
 
 work.get('/update', function (req, res, next) {
-    res.render('updateWork');
+    res.render('updateWorkInfo');
 });
 
 work.get('/add', function (req, res, next) {
-    res.render('addWork');
+    res.render('addWorkInfo');
 });
 
 work.post('/addWork', function (req, res, next) {
