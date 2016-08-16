@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>上传博客</title>
+    <link rel="shortcut icon" href="/images/common/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/common/normalize.css">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/common/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/common/common.css">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/work.css">
+</head>
+
+<body>
+<div class="container">
+    <label class="ui-label">上传博客</label>
+    <form class="row" method="post" action="/article/addArticle">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <label class="ui-label">ID</label>
+            <input class="ui-input" type="text" name="id">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <label class="ui-label">type</label>
+            <input class="ui-input" type="text" name="type">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <label class="ui-label">date</label>
+            <input class="ui-input" type="text" name="date">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <label class="ui-label">title</label>
+            <input class="ui-input" type="text" name="title">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <label class="ui-label">love</label>
+            <input class="ui-input" type="text" name="love">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <label class="ui-label">scan</label>
+            <input class="ui-input" type="text" name="scan">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <label class="ui-label">comment</label>
+            <input class="ui-input" type="text" name="comment">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <label class="ui-label">brief</label>
+            <input class="ui-input" type="text" name="brief">
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <label class="ui-label">content</label>
+            <input class="ui-input" type="text" name="content">
+        </div>
+        <input type="submit" class="submit">
+    </form>
+</div>
+<script type="text/javascript" src="/javascripts/common/jquery.js"></script>
+<script type="text/javascript" src="/javascripts/common/bootstrap.js"></script>
+<script type="text/javascript" src="/javascripts/work.js"></script>
+</body>
+
+</html>
