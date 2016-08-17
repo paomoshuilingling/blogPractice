@@ -18,6 +18,7 @@ var jsonWrite = function(res, ret) {
     } else {
         res.json(ret);
     }
+    return;
 };
 
 var workMethod = {
@@ -32,15 +33,14 @@ var workMethod = {
             //建立连接，向表中插入值
             connection.query($sql.insert, [param.id, param.type, param.title, param.content], function(err, result) {
                 if (result.affectedRows > 0) {
-                    res.render('work', {
-                        result: result
-                    });
-                    // 第二个参数可以直接在jade中使用
+                    result = {
+                        code: 200,
+                        msg: '插入成功'
+                    };
                 } else {
-                    res.render('fail', {
-                        result: result
-                    });
+                    result = void 0;
                 }
+                jsonWrite(res,result);
 
                 // 释放连接 
                 connection.release();
@@ -78,15 +78,14 @@ var workMethod = {
             connection.query($sql.update, [param.type, param.title, param.content, +param.id], function(err, result) {
                 // 使用页面进行跳转提示
                 if (result.affectedRows > 0) {
-                    res.render('work', {
-                        result: result
-                    }); // 第二个参数可以直接在jade中使用
+                    result = {
+                        code: 200,
+                        msg: '更新成功'
+                    };
                 } else {
-                    res.render('fail', {
-                        result: result
-                    });
+                    result = void 0;
                 }
-                console.log(result);
+                jsonWrite(res,result);
 
                 connection.release();
             });
@@ -106,7 +105,16 @@ var workMethod = {
     queryAll: function(req, res, next) {
         pool.getConnection(function(err, connection) {
             connection.query($sql.queryAll, function(err, result) {
-                jsonWrite(res, result);
+                if (result.length>0) {
+                    res.render('work', {
+                        result:result
+                    }); // 第二个参数可以直接在jade中使用
+                } else {
+                    res.render('fail', {
+                        result: result
+                    });
+                }
+
                 connection.release();
             });
         });

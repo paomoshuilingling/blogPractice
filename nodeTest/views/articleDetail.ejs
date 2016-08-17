@@ -17,40 +17,28 @@
     <div class="container">
         <article class="row" id="article">
             <section class="col-md-9">
-                <% for(var i=0;i<result.length;i++) {%>
                     <article>
                         <aside>
                             <ul>
-                                <li><%= result[i].dateLabel %></li>
-                                <li><%= result[i].type %></li>
+                                <li><%= result.dateLabel %></li>
+                                <li><%= result.type %></li>
                             </ul>
                         </aside>
                         <header>
-                            <a href="/articleDetail?id=<%= result[i].id %>" target="_blank"
-                               class="articleTitle"><%= result[i].title %></a>
+                            <a href="javascript:;" target="_blank"
+                               class="articleTitle"><%= result.title %></a>
                             <p class="articleMeta">
-                                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> 发表于 <%= result[i].date %> •
-                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> <%= result[i].scan %> 次围观 •
-                                <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 活捉 <%= result[i].comment %> 条
+                                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> 发表于 <%= result.date %> •
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> <%= result.scan %> 次围观 •
+                                <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 活捉 <%= result.comment %> 条
                             </p>
                         </header>
-                        <p><%= result[i].brief %></p>
+                        <p><%= result.content %></p>
                         <footer>
                         </footer>
                     </article>
-                <% } %>
-                <footer id="page">
-                    <ul>
-                        <li><a href="#"><span>第一页</span></a></li>
-                        <li><a href="#"><span>上一页</span></a></li>
-                        <li><a href="#"><span>1</span></a></li>
-                        <li><a href="#"><span>2</span></a></li>
-                        <li><a href="#"><span>3</span></a></li>
-                        <li><a href="#"><span>4</span></a></li>
-                        <li><a href="#"><span>……</span></a></li>
-                        <li><a href="#"><span>下一页</span></a></li>
-                        <li><a href="#"><span>最后页</span></a></li>
-                    </ul>
+                <footer class="remark">
+                    
                 </footer>
             </section>
             <aside class="col-md-3" id="aside">
