@@ -4,7 +4,7 @@ var work = express.Router();
 var workDao = require('../dao/workDao');
 
 work.get('/', function (req, res, next) {
-    res.render('work');
+    workDao.queryAll(req, res, next);
 });
 
 work.get('/update', function (req, res, next) {

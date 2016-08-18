@@ -4,7 +4,7 @@ var article = express.Router();
 var articleDao=require('../dao/articleDao');
 
 article.get('/', function(req, res, next) {
-  res.render('article');
+  articleDao.queryAll(req, res, next);
 });
 
 article.get('/update', function (req, res, next) {
@@ -19,7 +19,7 @@ article.post('/addArticle', function (req, res, next) {
   articleDao.add(req, res, next);
 });
 
-article.get('/queryArticle', function (req, res, next) {
+article.get('/articleDetail', function (req, res, next) {
   articleDao.queryById(req, res, next);
 });
 
