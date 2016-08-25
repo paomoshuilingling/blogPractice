@@ -40,7 +40,7 @@ var workMethod = {
                 } else {
                     result = void 0;
                 }
-                jsonWrite(res,result);
+                jsonWrite(res, result);
 
                 // 释放连接 
                 connection.release();
@@ -50,8 +50,12 @@ var workMethod = {
     delete: function(req, res, next) {
         // delete by Id
         pool.getConnection(function(err, connection) {
-            var id = +req.query.id;
-            connection.query($sql.delete, id, function(err, result) {
+            var param = req.body;
+            if (param.id == null) {
+                jsonWrite(res, undefined);
+                return;
+            }
+            connection.query($sql.delete, param.id, function(err, result) {
                 if (result.affectedRows > 0) {
                     result = {
                         code: 200,
@@ -85,7 +89,7 @@ var workMethod = {
                 } else {
                     result = void 0;
                 }
-                jsonWrite(res,result);
+                jsonWrite(res, result);
 
                 connection.release();
             });
@@ -105,9 +109,9 @@ var workMethod = {
     queryAll: function(req, res, next) {
         pool.getConnection(function(err, connection) {
             connection.query($sql.queryAll, function(err, result) {
-                if (result.length>0) {
+                if (result.length > 0) {
                     res.render('work', {
-                        result:result
+                        result: result
                     }); // 第二个参数可以直接在jade中使用
                 } else {
                     res.render('fail', {

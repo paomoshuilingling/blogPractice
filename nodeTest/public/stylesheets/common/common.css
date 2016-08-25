@@ -13,3 +13,11 @@ body {
     background-color: #EEEEEE;
     font-family: "Avenir Next",Helvetica,Arial,"Lantinghei SC","Microsoft YaHei",sans-serif;
 }
+
+.ui-input{
+	width: 100%;
+	heigth:100%;
+	padding:5px 10px;
+	border-radius: 5px;
+    -webkit-border-radius: 5px;
+}

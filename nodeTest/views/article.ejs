@@ -29,7 +29,7 @@
                             <a href="/article/articleDetail?id=<%= result[i].id %>" target="_blank"
                                class="articleTitle"><%= result[i].title %></a>
                             <p class="articleMeta">
-                                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> 发表于 <%= result[i].date %> •
+                                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span><%= result[i].love %>颗心 • 发表于 <%= result[i].date %> •
                                 <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> <%= result[i].scan %> 次围观 •
                                 <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 活捉 <%= result[i].comment %> 条
                             </p>
@@ -60,10 +60,10 @@
                     <input class="go" type="submit" value="GO"/>
                 </div>
                 <ul class="href">
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                    <li><a href="#">其他文章</a></li>
+                    <li><a class='html' href="/article/articleType?type=H">HTML</a></li>
+                    <li><a class='css' href="/article/articleType?type=C">CSS</a></li>
+                    <li><a class='js' href="/article/articleType?type=J">JavaScript</a></li>
+                    <li><a class='other' href="/article/articleType?type=O">其他文章</a></li>
                 </ul>
                 <embed wmode="transparent"
                        src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.swf"

@@ -15,6 +15,10 @@ work.get('/add', function (req, res, next) {
     res.render('addWorkInfo');
 });
 
+work.get('/delete', function (req, res, next) {
+    res.render('deleteWorkInfo');
+});
+
 work.post('/addWork', function (req, res, next) {
     workDao.add(req, res, next);
 });
@@ -27,7 +31,7 @@ work.get('/queryAll', function (req, res, next) {
     workDao.queryAll(req, res, next);
 });
 
-work.get('/deleteWork', function (req, res, next) {
+work.post('/deleteWork', function (req, res, next) {
     workDao.delete(req, res, next);
 });
 

@@ -21,6 +21,14 @@ var jsonWrite = function(res, ret) {
     }
 };
 
+/*var timeTransfer = function(res) {
+    for (var i = 0; i < res.length; i++) {
+        var month = res[i].date.getMonth() + 1;
+        res[i].dateLabel = month + "." + res[i].date.getDate();
+        res[i].date = res[i].date.getFullYear() + "年" + month + "月" + res[i].date.getDate();
+    }
+}*/
+
 var articleMethod = {
     add: function(req, res, next) {
         pool.getConnection(function(err, connection) {
@@ -42,7 +50,7 @@ var articleMethod = {
                     result = void 0;
                 }
                 jsonWrite(res, result);
-                
+
                 // 释放连接
                 connection.release();
             });
@@ -51,8 +59,12 @@ var articleMethod = {
     delete: function(req, res, next) {
         // delete by Id
         pool.getConnection(function(err, connection) {
-            var id = +req.query.id;
-            connection.query($sql.delete, id, function(err, result) {
+            var param = req.body;
+            if (param.id == null) {
+                jsonWrite(res, undefined);
+                return;
+            }
+            connection.query($sql.delete, param.id, function(err, result) {
                 if (result.affectedRows > 0) {
                     result = {
                         code: 200,
@@ -97,21 +109,46 @@ var articleMethod = {
         var id = +req.query.id; // 为了拼凑正确的sql语句，这里要转下整数
         pool.getConnection(function(err, connection) {
             connection.query($sql.queryById, id, function(err, result) {
-                if (result.length>0) {
-                    for(var i=0;i<result.length;i++){
-                        var month=result[i].date.getMonth()+1;
-                        result[i].dateLabel=month+"."+result[i].date.getDate();
-                        result[i].date=result[i].date.getFullYear()+"年"+month+"月"+result[i].date.getDate();
+                if (result.length > 0) {
+                    for (var i = 0; i < result.length; i++) {
+                        var month = result[i].date.getMonth() + 1;
+                        result[i].dateLabel = month + "." + result[i].date.getDate();
+                        result[i].date = result[i].date.getFullYear() + "年" + month + "月" + result[i].date.getDate();
                     }
                     res.render('articleDetail', {
-                        result:result[0]
+                        result: result[0]
                     }); // 第二个参数可以直接在jade中使用
                 } else {
                     res.render('fail', {
                         result: result
                     });
                 }
-                
+
+                //jsonWrite(res, result);
+                connection.release();
+
+            });
+        });
+    },
+    queryByType: function(req, res, next) {
+        var type = req.query.type; // 为了拼凑正确的sql语句，这里要转下整数
+        pool.getConnection(function(err, connection) {
+            connection.query($sql.queryByType, type, function(err, result) {
+                if (result.length > 0) {
+                    for (var i = 0; i < result.length; i++) {
+                        var month = result[i].date.getMonth() + 1;
+                        result[i].dateLabel = month + "." + result[i].date.getDate();
+                        result[i].date = result[i].date.getFullYear() + "年" + month + "月" + result[i].date.getDate();
+                    }
+                    res.render('article', {
+                        result: result
+                    }); // 第二个参数可以直接在jade中使用
+                } else {
+                    res.render('fail', {
+                        result: result
+                    });
+                }
+
                 //jsonWrite(res, result);
                 connection.release();
 
@@ -121,14 +158,14 @@ var articleMethod = {
     queryAll: function(req, res, next) {
         pool.getConnection(function(err, connection) {
             connection.query($sql.queryAll, function(err, result) {
-                if (result.length>0) {
-                    for(var i=0;i<result.length;i++){
-                        var month=result[i].date.getMonth()+1;
-                        result[i].dateLabel=month+"."+result[i].date.getDate();
-                        result[i].date=result[i].date.getFullYear()+"年"+month+"月"+result[i].date.getDate();
+                if (result.length > 0) {
+                    for (var i = 0; i < result.length; i++) {
+                        var month = result[i].date.getMonth() + 1;
+                        result[i].dateLabel = month + "." + result[i].date.getDate();
+                        result[i].date = result[i].date.getFullYear() + "年" + month + "月" + result[i].date.getDate();
                     }
                     res.render('article', {
-                        result:result
+                        result: result
                     }); // 第二个参数可以直接在jade中使用
                 } else {
                     res.render('fail', {
