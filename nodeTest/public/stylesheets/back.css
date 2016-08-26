@@ -11,8 +11,11 @@
 }
 .section article ul li{
     text-decoration: none;
-    
     text-align: center;
     margin: 10px 10px 0 0;
-    
+}
+
+.hr{
+	background-color: blueviolet;
+    height: 2px;
 }

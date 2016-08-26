@@ -1,4 +1,5 @@
 /*reuse.html css*/
+
 * {
     margin: 0;
     padding: 0;
@@ -11,13 +12,40 @@ body {
     height: 100%;
     width: 100%;
     background-color: #EEEEEE;
-    font-family: "Avenir Next",Helvetica,Arial,"Lantinghei SC","Microsoft YaHei",sans-serif;
+    font-family: "Avenir Next", Helvetica, Arial, "Lantinghei SC", "Microsoft YaHei", sans-serif;
 }
 
-.ui-input{
-	width: 100%;
-	heigth:100%;
-	padding:5px 10px;
-	border-radius: 5px;
+.ui-input {
+    width: 100%;
+    heigth: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
     -webkit-border-radius: 5px;
+    background-color: whitesmoke;
+    color: orangered;
+}
+
+.ui-textarea {
+    width: 100%;
+    heigth: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    resize: none;
+    overflow-y: auto;
+    height: 300px;
+}
+
+.ui-radio {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 0;
+    line-height: 0;
+}
+
+.ui-radio-normal {
+    width: 15px;
+    height: 15px;
+    margin-top: 0px !important;
 }
