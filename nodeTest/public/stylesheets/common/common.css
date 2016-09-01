@@ -15,14 +15,17 @@ body {
     font-family: "Avenir Next", Helvetica, Arial, "Lantinghei SC", "Microsoft YaHei", sans-serif;
 }
 
+.ui-label {
+    line-height: 34px;
+    text-align: center;
+}
+
 .ui-input {
     width: 100%;
     heigth: 100%;
     padding: 5px 10px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
-    background-color: whitesmoke;
-    color: orangered;
 }
 
 .ui-textarea {
@@ -33,7 +36,7 @@ body {
     -webkit-border-radius: 5px;
     resize: none;
     overflow-y: auto;
-    height: 300px;
+    height: 300px !important;
 }
 
 .ui-radio {
@@ -49,3 +52,13 @@ body {
     height: 15px;
     margin-top: 0px !important;
 }
+
+.submit {
+    margin-top: 10px;
+}
+
+.input-group .go {
+    cursor: pointer;
+}
+
+

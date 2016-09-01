@@ -104,11 +104,15 @@
                 </div>
             </section>
             <aside class="col-md-3" id="aside">
-                <div id="search">
-                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                    <input class="su" type="text" placeholder="Keywords" />
-                    <input class="go" type="submit" value="GO" />
-                </div>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></div>
+                            <input type="text" class="form-control" id="searchContent" placeholder="searchContent">
+                            <div class="input-group-addon go">GO</div>
+                        </div>
+                    </div>
+                </form>
                 <div id="top">
                     <label>人气排行榜</label>
                     <ol>

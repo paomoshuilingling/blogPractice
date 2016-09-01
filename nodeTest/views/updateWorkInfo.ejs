@@ -14,25 +14,53 @@
 <body>
     <div class="container">
     	<label class="ui-label">更新作品</label>
-    	<form class="row" method="post" action="/work/updateWork">
-    		<div class="col-lg-4 col-md-4 col-sm-12">
-    			<label class="ui-label">ID</label>
-    			<input class="ui-input" type="text" name="id">
-    		</div>
-    		<div class="col-lg-4 col-md-4 col-sm-12">
-    			<label class="ui-label">type</label>
-    			<input class="ui-input" type="text" name="type">
-    		</div>
-    		<div class="col-lg-4 col-md-4 col-sm-12">
-    			<label class="ui-label">title</label>
-    			<input class="ui-input" type="text" name="title">
-    		</div>
-    		<div class="col-lg-12 col-md-12 col-sm-12">
-    			<label class="ui-label">content</label>
-    			<input class="ui-input" type="text" name="content">
-    		</div>
-			<input type="submit" class="submit">
-		</form>
+    	<form class="row" method="post" action="/work/addWork">
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <label class="ui-label col-lg-2 col-md-2">ID：</label>
+                <div class="col-lg-10 col-md-10">
+                    <input class="ui-input form-control" type="text" name="id" placeholder="请输入ID">
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12">
+                <label class="ui-label col-lg-2 col-md-2">type：</label>
+                <div class="col-lg-10 col-md-10">
+                    <span class="ui-radio">
+                        <input class="ui-input ui-radio-normal" id="HTML" type="radio" name="type" value="H">
+                        <label for="HTML"></label>
+                    </span>
+                    <label for="HTML" class="ui-label">HTML</label>
+                    <span class="ui-radio">
+                        <input class="ui-input ui-radio-normal" id="CSS" type="radio" name="type" value="C">
+                        <label for="CSS"></label>
+                    </span>
+                    <label for="CSS" class="ui-label">CSS</label>
+                    <span class="ui-radio">
+                        <input class="ui-input ui-radio-normal" id="JavaScript" type="radio" name="type" value="J">
+                        <label for="JavaScript"></label>
+                    </span>
+                    <label for="JavaScript" class="ui-label">JavaScript</label>
+                    <span class="ui-radio">
+                        <input class="ui-input ui-radio-normal" id="Other" type="radio" name="type" value="O">
+                        <label for="Other"></label>
+                    </span>
+                    <label for="Other" class="ui-label">Other</label>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <label class="ui-label col-lg-2 col-md-2">title：</label>
+                <div class="col-lg-10 col-md-10">
+                    <input class="ui-input form-control" type="text" name="title" placeholder="请输入标题">
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <label class="ui-label">content：</label>
+                <textarea class="ui-textarea form-control" type="text" name="content" placeholder="请输入内容"></textarea>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4" style="margin-top:20px;">
+                <button type="submit" class="btn btn-success">提交</button>
+                <button type="reset" class="btn btn-warning">重置</button>
+            </div>
+        </form>
     </div>
     <script type="text/javascript" src="/javascripts/common/jquery.js"></script>
     <script type="text/javascript" src="/javascripts/common/bootstrap.js"></script>

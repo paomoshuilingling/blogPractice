@@ -16,42 +16,61 @@
     <label class="ui-label">上传博客</label>
     <form class="row" method="post" action="/article/addArticle">
         <div class="col-lg-4 col-md-4 col-sm-12">
-            <label class="ui-label">ID</label>
-            <input class="ui-input" type="text" name="id">
+            <label class="ui-label col-lg-3 col-md-3">ID：</label>
+            <div class="col-lg-9 col-md-9">
+                <input class="ui-input form-control" type="text" name="id">
+            </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12">
-            <label class="ui-label">type</label>
-            <input class="ui-input" type="text" name="type">
+            <label class="ui-label col-lg-3 col-md-3">type：</label>
+            <div class="col-lg-9 col-md-9">
+                <input class="ui-input form-control" type="text" name="type">
+            </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12">
-            <label class="ui-label">date</label>
-            <input class="ui-input" type="text" name="date">
+            <label class="ui-label col-lg-3 col-md-3">date：</label>
+            <div class="col-lg-9 col-md-9">
+                <input class="ui-input form-control" type="text" name="date">
+            </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12">
-            <label class="ui-label">title</label>
-            <input class="ui-input" type="text" name="title">
+            <label class="ui-label col-lg-3 col-md-3">title：</label>
+            <div class="col-lg-9 col-md-9">
+                <input class="ui-input form-control" type="text" name="title">
+            </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12">
-            <label class="ui-label">love</label>
-            <input class="ui-input" type="text" name="love">
+            <label class="ui-label col-lg-3 col-md-3">love：</label>
+            <div class="col-lg-9 col-md-9">
+                <input class="ui-input form-control" type="text" name="love">
+            </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12">
-            <label class="ui-label">scan</label>
-            <input class="ui-input" type="text" name="scan">
+            <label class="ui-label col-lg-3 col-md-3">scan：</label>
+            <div class="col-lg-9 col-md-9">
+                <input class="ui-input form-control" type="text" name="scan">
+            </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12">
-            <label class="ui-label">comment</label>
-            <input class="ui-input" type="text" name="comment">
+            <label class="ui-label col-lg-3 col-md-3">comment：</label>
+            <div class="col-lg-9 col-md-9">
+                <input class="ui-input form-control" type="text" name="comment">
+            </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12">
-            <label class="ui-label">brief</label>
-            <input class="ui-input" type="text" name="brief">
+            <label class="ui-label col-lg-3 col-md-3">brief：</label>
+            <div class="col-lg-9 col-md-9">
+                <input class="ui-input form-control" type="text" name="brief">
+            </div>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <label class="ui-label">content</label>
-            <input class="ui-input" type="text" name="content">
+            <label class="ui-label">content：</label>
+            <textarea class="ui-textarea form-control" type="text" name="content"></textarea>
         </div>
-        <input type="submit" class="submit">
+        <div class="col-lg-2 col-md-2 col-sm-4" style="margin-top:20px;">
+            <button type="submit" class="btn btn-success">提交</button>
+            <button type="reset" class="btn btn-warning">重置</button>
+        </div>
     </form>
 </div>
 <script type="text/javascript" src="/javascripts/common/jquery.js"></script>

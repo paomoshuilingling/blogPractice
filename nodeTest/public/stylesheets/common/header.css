@@ -9,6 +9,7 @@
     width: 100%;
     z-index: 2;
     background-image: -webkit-linear-gradient(left top, rgba(59, 44, 70, 0.6), rgba(40, 42, 44, 0.6));
+    background-image: -moz-linear-gradient(left top, rgba(59, 44, 70, 0.6), rgba(40, 42, 44, 0.6));
 }
 
 #header nav .circle1 {
@@ -66,4 +67,74 @@
 #hometitle img {
     width: 100%;
     height: 560px;
+}
+
+.headerHide {
+    animation: move_up 2s infinite;
+    -moz-animation: move_up 2s infinite;
+    /* Firefox */
+    -webkit-animation: move_up 2s infinite;
+    /* Safari and Chrome */
+    -o-animation: move_up 2s infinite;
+    /* Opera */
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count:1;
+    -moz-animation-iteration-count:1;
+    -o-animation-iteration-count:1;
+    -animation-iteration-count:1;
+}
+
+.headerAppear {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+    -webkit-transition: -webkit-transform .2s ease-out, opacity .2s ease-out;
+    transition: transform .2s ease-out, opacity .2s ease-out;
+}
+
+@-webkit-keyframes move_up {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translateY(-70px);
+        transform: translateY(-70px);
+    }
+}
+
+@-o-keyframes move_up {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translateY(-70px);
+        transform: translateY(-70px);
+    }
+}
+
+@-moz-keyframes move_up {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translateY(-70px);
+        transform: translateY(-70px);
+    }
+}
+
+@keyframes move_up {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translateY(-70px);
+        transform: translateY(-70px);
+    }
 }

@@ -1,7 +1,8 @@
-.section{
-
+.container{
+	margin-top: 20px;
 }
-.ui-label{
+
+.section{
 
 }
 
@@ -9,6 +10,7 @@
     list-style: none;
     float: left;
 }
+
 .section article ul li{
     text-decoration: none;
     text-align: center;
@@ -16,6 +18,6 @@
 }
 
 .hr{
-	background-color: blueviolet;
+	background-color: black;
     height: 2px;
 }

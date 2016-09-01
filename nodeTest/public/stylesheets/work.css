@@ -3,6 +3,7 @@
     works.html css
 ****
 ***/
+
 #works {
     background-color: #EEEEEE
 }
@@ -20,7 +21,6 @@
     border-bottom-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -webkit-border-bottom-right-radius: 5px;
-
 }
 
 #top label {
@@ -50,8 +50,14 @@
     font-size: 14px;
 }
 
+
 /*�������ݵ�TAB��ǩҳ*/
-#tabs, .js, .ui, .framework, .application {
+
+#tabs,
+.js,
+.ui,
+.framework,
+.application {
     height: 1000px;
     margin-bottom: 10px;
     position: relative;
@@ -70,12 +76,14 @@
     padding: 15px 20px 20px 20px;
     border-top: 5px solid;
 }
+
 #tabs a:first-child {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -webkit-border-bottom-right-radius: 5px;
 }
+
 #tabs a:nth-child(5) {
     border-right: 0px solid;
     border-top-right-radius: 5px;
@@ -99,7 +107,11 @@
     -webkit-border-bottom-right-radius: 5px;
 }
 
-#tabs .all,.js,.ui,.framework,.application {
+#tabs .all,
+.js,
+.ui,
+.framework,
+.application {
     margin: 30px 0 0 0;
 }
 
@@ -107,17 +119,26 @@
     padding: 10px;
 }
 
-#tabs .all > ul > li,.js > ul > li ,.ui> ul > li,.framework> ul > li,.application> ul > li{
+#tabs .all > ul > li,
+.js > ul > li,
+.ui> ul > li,
+.framework> ul > li,
+.application> ul > li {
     list-style: none;
     position: absolute;
     width: 175px;
     margin: 0 5px 5px 0;
 }
 
-#tabs .all > ul > li > ul,.js > ul > li > ul,.ui> ul > li > ul,.framework> ul > li > ul,.application> ul > li > ul {
+#tabs .all > ul > li > ul,
+.js > ul > li > ul,
+.ui> ul > li > ul,
+.framework> ul > li > ul,
+.application> ul > li > ul {
     display: block;
 }
-#tabs ul > li > ul>.workFlag:first-child{
+
+#tabs ul > li > ul>.workFlag:first-child {
     display: inline-block;
     font-size: 40px;
     font-weight: bolder;
@@ -130,7 +151,8 @@
     text-align: center;
     line-height: 60px;
 }
-#tabs ul > li > ul>h2{
+
+#tabs ul > li > ul>h2 {
     display: inline;
 }
 
@@ -144,15 +166,17 @@
     -webkit-border-bottom-right-radius: 5px;
 }
 
-#loading:hover{
+#loading:hover {
     cursor: pointer;
+    background-color: rgb(75, 0, 130);
+    color: white;
 }
 
-#loading span {
+#loading span:hover {
 
 }
 
-#works #aside{
+#works #aside {
     float: left;
     margin-top: 125px;
     height: 380px;

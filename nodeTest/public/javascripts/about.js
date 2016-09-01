@@ -1,16 +1,20 @@
-$(function () {
-        
-        var pic = ["/images/common/me.jpg", "/images/about/me1.jpg"];
-        var i = 0;
+$(function() {
 
-        function changepic() {
-            if (i > pic.length - 1) {
-                i = 0;
-            }
-            var c = $(".circle4");
-            c[0].src = pic[i];
-            i++;
-            setTimeout(changepic, 4000);
+    var pic = ["/images/common/me.jpg", "/images/about/me1.jpg"];
+    var i = 0;
+    var c = $(".circle4");
+    function changepic() {
+        if (i > pic.length - 1) {
+            i = 0;
         }
-        changepic();
+        
+        c[0].src = pic[i];
+        i++;
+        setTimeout(changepic, 4000);
+    }
+    changepic();
+    c.on('click',function(){
+        window.open="www.baidu.com";
     })
+
+})
