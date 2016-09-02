@@ -12,6 +12,7 @@ $(function(){
 	$('input[name="queryArticle"]').on('click','',function(){
 		location.href='/article/queryAll';
 	});
+
 	//操作作品
 	$('input[name="addWork"]').on('click','',function(){
 		location.href='/work/add';
