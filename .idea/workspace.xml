@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ec6a1db-32fc-41d2-9cd0-7517c7ec8768" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/public/javascripts/back.js" afterPath="$PROJECT_DIR$/nodeTest/public/javascripts/back.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/public/stylesheets/common/header.css" afterPath="$PROJECT_DIR$/nodeTest/public/stylesheets/common/header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/views/resume.ejs" afterPath="$PROJECT_DIR$/nodeTest/views/resume.ejs" />
     </list>
     <ignored path="spring-johnny.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +47,7 @@
       <file leaf-file-name="back.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodeTest/public/javascripts/back.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.428572">
+            <state vertical-scroll-proportion="0.0">
               <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
               <folding />
             </state>
@@ -58,7 +57,7 @@
       <file leaf-file-name="header.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nodeTest/public/stylesheets/common/header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33282906">
+            <state vertical-scroll-proportion="0.4244713">
               <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
               <folding />
             </state>
@@ -460,20 +459,26 @@
       <option name="project" value="LOCAL" />
       <updated>1472727001994</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="头部样式修改；&#10;">
+      <created>1472801202555</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1472801202555</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2784272" sideWeight="0.7850208" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2784272" sideWeight="0.7770083" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49791667" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1816118" sideWeight="0.5233794" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1816118" sideWeight="0.4766206" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1814059" sideWeight="0.52550477" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1814059" sideWeight="0.47449523" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2784272" sideWeight="0.2149792" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2784272" sideWeight="0.22299169" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -509,7 +514,8 @@
     <MESSAGE value="添加博客页面更改" />
     <MESSAGE value="名称更改，删除test" />
     <MESSAGE value="顶部栏淡出直入；&#10;更新和增加操作页面改善；&#10;查询控件修改；&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="顶部栏淡出直入；&#10;更新和增加操作页面改善；&#10;查询控件修改；&#10;" />
+    <MESSAGE value="头部样式修改；&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="头部样式修改；&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -540,9 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,9 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
-          <folding>
-            <marker date="1472702793993" expanded="true" signature="12347:12358" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,9 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-          <folding>
-            <marker date="1472702793993" expanded="true" signature="12347:12358" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,7 +875,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nodeTest/public/javascripts/back.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.428572">
+        <state vertical-scroll-proportion="0.0">
           <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding />
         </state>
@@ -889,7 +883,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nodeTest/public/stylesheets/common/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33282906">
+        <state vertical-scroll-proportion="0.4244713">
           <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
           <folding />
         </state>
