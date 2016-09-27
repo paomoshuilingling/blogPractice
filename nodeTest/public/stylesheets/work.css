@@ -54,10 +54,7 @@
 /*�������ݵ�TAB��ǩҳ*/
 
 #tabs,
-.pubuliu,
-.ui,
-.framework,
-.application {
+.pubuliu {
     height: 1000px;
     margin-bottom: 10px;
     position: relative;
@@ -75,6 +72,11 @@
     font-size: 14px;
     padding: 15px 20px 20px 20px;
     border-top: 5px solid;
+    border-bottom: 1px solid;
+}
+
+#tabs a:hover{
+    border-bottom:none;
 }
 
 #tabs a:first-child {

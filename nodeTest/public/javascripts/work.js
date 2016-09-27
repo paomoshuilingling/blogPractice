@@ -17,17 +17,12 @@ $(function () {
             for (var i = 1, l = tab_a.length; i < l; i++) {
                 tab_a[i].style.borderTopColor = color[i];
                 tab_a[i].href='/work/workType?type='+tab_a[i].text.substr(0,1);
-                tab_a[i].mouseenter = function () {
-                    show_tab_content(index(this, tab_a));
-                }
             }
             function show_tab_content(i) {
                 for (var j = 0, l = tab_content.length; j < l; j++) {
-                    tab_a[j].style.borderBottom = "1px solid #000000";
                     tab_a[j].style.borderTopColor = color[j];
                     tab_content[j].style.display = "none";
                 }
-                tab_a[i].style.borderBottom = "0";
                 tab_a[i].style.borderTopColor = colorhover[i];
                 tab_content[i].style.display = "block";
                 pubuliu(i);

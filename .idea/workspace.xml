@@ -2,73 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ec6a1db-32fc-41d2-9cd0-7517c7ec8768" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeTest/public/images/common/null.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeTest/views/articleNull.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeTest/views/workNull.ejs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/application/0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/application/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/application/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/application/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/application/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/application/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/application/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/application/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/application/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/application/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/framework/0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/framework/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/framework/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/framework/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/framework/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/framework/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/framework/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/framework/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/framework/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/framework/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/js/0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/js/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/js/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/js/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/js/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/js/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/js/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/js/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/js/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/js/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/ui/0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/ui/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/ui/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/ui/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/ui/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/ui/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/ui/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/ui/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/ui/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/ui/9.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/public/images/common/background/b1.jpg" afterPath="$PROJECT_DIR$/nodeTest/public/images/common/background/b1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/dao/articleDao.js" afterPath="$PROJECT_DIR$/nodeTest/dao/articleDao.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/dao/workDao.js" afterPath="$PROJECT_DIR$/nodeTest/dao/workDao.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/dao/workSqlMapping.js" afterPath="$PROJECT_DIR$/nodeTest/dao/workSqlMapping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/public/javascripts/article.js" afterPath="$PROJECT_DIR$/nodeTest/public/javascripts/article.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/public/javascripts/common/header.js" afterPath="$PROJECT_DIR$/nodeTest/public/javascripts/common/header.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/public/javascripts/work.js" afterPath="$PROJECT_DIR$/nodeTest/public/javascripts/work.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/public/stylesheets/common/header.css" afterPath="$PROJECT_DIR$/nodeTest/public/stylesheets/common/header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/public/stylesheets/work.css" afterPath="$PROJECT_DIR$/nodeTest/public/stylesheets/work.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/routes/work.js" afterPath="$PROJECT_DIR$/nodeTest/routes/work.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/views/header.ejs" afterPath="$PROJECT_DIR$/nodeTest/views/header.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/views/resume.ejs" afterPath="$PROJECT_DIR$/nodeTest/views/resume.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeTest/views/work.ejs" afterPath="$PROJECT_DIR$/nodeTest/views/work.ejs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/all/0.jpg" afterPath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/all/1.jpg" afterPath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/all/2.jpg" afterPath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/all/3.jpg" afterPath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/all/4.jpg" afterPath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/all/5.jpg" afterPath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/all/6.jpg" afterPath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/all/7.jpg" afterPath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/all/8.jpg" afterPath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/all/9.jpg" afterPath="$PROJECT_DIR$/nodeTest/public/images/work/pubuliu/9.jpg" />
     </list>
     <ignored path="spring-johnny.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -167,8 +103,8 @@
       <file leaf-file-name="work.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodeTest/public/stylesheets/work.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.488889">
-              <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+            <state vertical-scroll-proportion="-18.290323">
+              <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -177,8 +113,8 @@
       <file leaf-file-name="work.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nodeTest/public/javascripts/work.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3323263">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.556962">
+              <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -187,7 +123,7 @@
       <file leaf-file-name="work.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodeTest/views/work.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.193548">
+            <state vertical-scroll-proportion="-11.451612">
               <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding />
             </state>
@@ -226,11 +162,11 @@
         <option value="$PROJECT_DIR$/nodeTest/dao/workSqlMapping.js" />
         <option value="$PROJECT_DIR$/nodeTest/routes/work.js" />
         <option value="$PROJECT_DIR$/nodeTest/views/work.ejs" />
-        <option value="$PROJECT_DIR$/nodeTest/public/stylesheets/work.css" />
         <option value="$PROJECT_DIR$/nodeTest/dao/articleDao.js" />
         <option value="$PROJECT_DIR$/nodeTest/dao/workDao.js" />
         <option value="$PROJECT_DIR$/nodeTest/public/stylesheets/common/header.css" />
         <option value="$PROJECT_DIR$/nodeTest/views/workNull.ejs" />
+        <option value="$PROJECT_DIR$/nodeTest/public/stylesheets/work.css" />
         <option value="$PROJECT_DIR$/nodeTest/public/javascripts/work.js" />
       </list>
     </option>
@@ -745,25 +681,31 @@
       <option name="project" value="LOCAL" />
       <updated>1473300671369</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="对应查询">
+      <created>1474971276827</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1474971276827</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2784272" sideWeight="0.76837724" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2784272" sideWeight="0.7688312" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49791667" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1816118" sideWeight="0.5276302" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12599319" sideWeight="0.5276302" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33030647" sideWeight="0.4978746" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1816118" sideWeight="0.47236982" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12599319" sideWeight="0.47236982" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.123582765" sideWeight="0.48459086" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2784272" sideWeight="0.23162274" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2784272" sideWeight="0.23116884" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -796,7 +738,8 @@
     <MESSAGE value="顶部栏淡出直入；&#10;更新和增加操作页面改善；&#10;查询控件修改；&#10;" />
     <MESSAGE value="头部样式修改；&#10;" />
     <MESSAGE value="照片响应式设计&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="照片响应式设计&#10;" />
+    <MESSAGE value="对应查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="对应查询" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1105,14 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeTest/public/stylesheets/work.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.488889">
-          <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodeTest/dao/articleDao.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1147,14 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeTest/views/work.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.193548">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodeTest/views/articleNull.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.2580647">
@@ -1174,10 +1101,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nodeTest/views/work.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.451612">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeTest/public/stylesheets/work.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.290323">
+          <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nodeTest/public/javascripts/work.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3323263">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.556962">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
           <folding />
         </state>
       </provider>
