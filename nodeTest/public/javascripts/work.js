@@ -6,15 +6,18 @@ $(function () {
             }
             var colorhover = ["#5900B2", "#522A5C", "#5900B2", "#8C2300", "#D9A300"];
             var color = ["#DFC6E6", "#D657FF", "#9B5FFF", "#B4683A", "#B49B3D"];
-            var classname = new Array("all", "js", "ui", "framework", "application");
+            var classname = 'pubuliu';
+            var arr = new Array("all", "js", "ui", "framework", "application");
             var tab = document.getElementById("tabs");
             var tab_a = tab.getElementsByTagName("a");
             var tab_content = tab.getElementsByTagName("div");
             show_tab_content(index(tab_a[0], tab_a));
-            for (var i = 0, l = tab_a.length; i < l; i++) {
+            tab_a[0].href='/work';
+            tab_a[0].style.borderTopColor = colorhover[0];
+            for (var i = 1, l = tab_a.length; i < l; i++) {
                 tab_a[i].style.borderTopColor = color[i];
-                tab_a[0].style.borderTopColor = colorhover[0];
-                tab_a[i].onclick = function () {
+                tab_a[i].href='/work/workType?type='+tab_a[i].text.substr(0,1);
+                tab_a[i].mouseenter = function () {
                     show_tab_content(index(this, tab_a));
                 }
             }
@@ -31,23 +34,24 @@ $(function () {
             }
 
             //瀑布流函数
-            function pubuliu(j) {
-                var lis = $("." + classname[j]).children("ul").children("li");
+            function pubuliu() {
+                var lis = $("." + classname).children("ul").children("li");
                 var li_height = {C1: [], C2: [], C3: [], C4: []};
                 var li_imgtotal = lis.children("canvas");
-                var lisspan = $("." + classname[j]).children("ul").children("li").children("ul");
+                var lisspan = $("." + classname).children("ul").children("li").children("ul");
                 for (var i = 0; i < lis.length; i++) {
-                    //li的高度和宽度
-                    lis.eq(i).css("height", parseInt(200 + Math.random() * 50 + "px"));
+
                     //lis.eq(i).css("border", "1px solid");
                     //canvas的高度和宽度
                     var liw = parseInt(170);
                     var lih = parseInt(150 + Math.random() * 50);
+                    //li的高度和宽度
+                    lis.eq(i).css("height", parseInt(lih + 123 + "px"));
                     li_imgtotal.eq(i).css("width", liw + "px");
                     li_imgtotal.eq(i).css("height", lih + "px");
                     li_imgtotal[i].id = "pubuliu" + i;
                     var img = new Image();
-                    img.src = '/images/work/pubuliu/' + classname[j]+"/" + i + '.jpg';
+                    img.src = '/images/work/pubuliu/' + i + '.jpg';
                     draw2(li_imgtotal[i].id, img, liw, lih);
                     var col = i % 4;
                     switch (col) {

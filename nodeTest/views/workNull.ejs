@@ -12,10 +12,10 @@
 </head>
 
 <body>
-    <div>
-        <%- include header %>
-        <article class="container" id="works">
-            <div class="row">
+<div>
+    <%- include header %>
+    <article class="container" id="works">
+        <div class="row">
             <section class="col-md-9">
                 <div id="tabs">
                     <a>ALL</a>
@@ -24,19 +24,7 @@
                     <a>Framework</a>
                     <a>Application</a>
                     <div class="pubuliu">
-                        <ul>
-                        <% for(var i=0;i<result.length;i++) {%>
-                            <li>
-                                <canvas></canvas>
-                                <ul>
-                                    <p class="workFlag"><%= result[i].type %></p>
-                                    <h2 title="<%= result[i].title %>"><%= result[i].title %></h2>
-                                    <p class="content"><%= result[i].content %></p>
-                                </ul>
-                            </li>
-                        <% } %>
-                            <!--更多的li-->
-                        </ul>
+                        <img style="height:auto;width: 100%;" src="/images/common/null.gif">
                     </div>
                 </div>
                 <div id="loading">
@@ -85,13 +73,13 @@
                     <div style="clear:both;"></div>
                 </div>
             </aside>
-                </div>
-        </article>
-        <%- include footer %>
-    </div>
-    <script type="text/javascript" src="/javascripts/common/jquery.js"></script>
-    <script type="text/javascript" src="/javascripts/common/bootstrap.js"></script>
-    <script type="text/javascript" src="/javascripts/work.js"></script>
+        </div>
+    </article>
+    <%- include footer %>
+</div>
+<script type="text/javascript" src="/javascripts/common/jquery.js"></script>
+<script type="text/javascript" src="/javascripts/common/bootstrap.js"></script>
+<script type="text/javascript" src="/javascripts/work.js"></script>
 </body>
 
 </html>

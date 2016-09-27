@@ -30,7 +30,9 @@ work.get('/queryWork', function (req, res, next) {
 work.get('/queryAll', function (req, res, next) {
     workDao.queryAll(req, res, next);
 });
-
+work.get('/workType', function (req, res, next) {
+    workDao.queryByType(req, res, next);
+});
 work.post('/deleteWork', function (req, res, next) {
     workDao.delete(req, res, next);
 });

@@ -7,7 +7,7 @@
     min-height: 70px;
     min-width: 1225px;
     width: 100%;
-    z-index: 2;
+    z-index: 100;
     background-image: -webkit-linear-gradient(left top, rgba(59, 44, 70, 0.6), rgba(40, 42, 44, 0.6));
     background-image: -moz-linear-gradient(left top, rgba(59, 44, 70, 0.6), rgba(40, 42, 44, 0.6));
 }

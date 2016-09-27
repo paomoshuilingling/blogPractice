@@ -106,6 +106,26 @@ var workMethod = {
             });
         });
     },
+    queryByType: function(req, res, next) {
+        var type = req.query.type; // 为了拼凑正确的sql语句，这里要转下整数
+        pool.getConnection(function(err, connection) {
+            connection.query($sql.queryByType, type, function(err, result) {
+                if (result.length > 0) {
+                    res.render('work', {
+                        result: result
+                    }); // 第二个参数可以直接在jade中使用
+                } else {
+                    res.render('workNull', {
+                        result: result
+                    });
+                }
+
+                //jsonWrite(res, result);
+                connection.release();
+
+            });
+        });
+    },
     queryAll: function(req, res, next) {
         pool.getConnection(function(err, connection) {
             connection.query($sql.queryAll, function(err, result) {

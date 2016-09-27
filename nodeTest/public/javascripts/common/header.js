@@ -14,7 +14,7 @@ $(function() {
     }
     var pic = ["/images/common/background/b1.jpg", "/images/common/background/b3.jpg", "/images/common/background/b4.jpg", "/images/common/background/b2.jpg"];
     var i = 0;
-    changeback();
+    //changeback();
 
     function changeback() {
         if (i > pic.length - 1) {
@@ -29,8 +29,7 @@ $(function() {
             e = e || window.event;
             var wheel = e.wheelDelta || e.detail;
             var nav = $('#header').find('nav');
-            if (wheel) { //判断浏览器IE，谷歌滑轮事件    
-                console.log(wheel);
+            if (wheel) { //判断浏览器IE，谷歌滑轮事件
                 if (wheel > 0) { //当滑轮向上滚动时
                     nav.removeClass('headerHide');
                     nav.addClass('headerAppear');

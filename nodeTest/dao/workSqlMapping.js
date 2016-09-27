@@ -5,6 +5,7 @@ var work = {
 	update: 'update work set type=?, title=?, content=? where id=?',
 	delete: 'delete from work where id=?',
 	queryById: 'select * from work where id=?',
+	queryByType: 'select * from work where type=?',
 	queryAll: 'select * from work'
 };
 

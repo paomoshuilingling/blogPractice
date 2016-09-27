@@ -54,7 +54,7 @@
 /*�������ݵ�TAB��ǩҳ*/
 
 #tabs,
-.js,
+.pubuliu,
 .ui,
 .framework,
 .application {
@@ -80,8 +80,8 @@
 #tabs a:first-child {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
 }
 
 #tabs a:nth-child(5) {
@@ -107,11 +107,7 @@
     -webkit-border-bottom-right-radius: 5px;
 }
 
-#tabs .all,
-.js,
-.ui,
-.framework,
-.application {
+#tabs .pubuliu{
     margin: 30px 0 0 0;
 }
 
@@ -119,22 +115,14 @@
     padding: 10px;
 }
 
-#tabs .all > ul > li,
-.js > ul > li,
-.ui> ul > li,
-.framework> ul > li,
-.application> ul > li {
+#tabs .pubuliu > ul > li{
     list-style: none;
     position: absolute;
     width: 175px;
     margin: 0 5px 5px 0;
 }
 
-#tabs .all > ul > li > ul,
-.js > ul > li > ul,
-.ui> ul > li > ul,
-.framework> ul > li > ul,
-.application> ul > li > ul {
+#tabs .pubuliu > ul > li > ul {
     display: block;
 }
 
@@ -150,10 +138,21 @@
     -webkit-border-radius: 30px;
     text-align: center;
     line-height: 60px;
+    float: left;
 }
 
 #tabs ul > li > ul>h2 {
-    display: inline;
+    display: inline-block;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    width: 95px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+#tabs ul > li > ul>p:last-child{
+    padding-top: 5px;
+    text-indent: 2em;
 }
 
 #loading {

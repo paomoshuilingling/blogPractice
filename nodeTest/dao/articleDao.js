@@ -144,7 +144,7 @@ var articleMethod = {
                         result: result
                     }); // 第二个参数可以直接在jade中使用
                 } else {
-                    res.render('fail', {
+                    res.render('articleNull', {
                         result: result
                     });
                 }
