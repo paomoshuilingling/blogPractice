@@ -16,7 +16,7 @@
     <%- include header %>
     <div class="container">
         <article class="row" id="article">
-            <section class="col-md-9">
+            <section class="col-md-9 col-sm-9 col-xs-12">
                 <% for(var i=0;i<result.length;i++) {%>
                     <article>
                         <aside>
@@ -29,7 +29,7 @@
                             <a href="/article/articleDetail?id=<%= result[i].id %>" target="_blank"
                                class="articleTitle"><%= result[i].title %></a>
                             <p class="articleMeta">
-                                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span><%= result[i].love %>颗心 • 发表于 <%= result[i].date %> •
+                                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> <%= result[i].love %> 颗心 • 发表于 <%= result[i].date %> •
                                 <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> <%= result[i].scan %> 次围观 •
                                 <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 活捉 <%= result[i].comment %> 条
                             </p>
@@ -41,19 +41,13 @@
                 <% } %>
                 <footer id="page">
                     <ul>
-                        <li><a href="#"><span>第一页</span></a></li>
-                        <li><a href="#"><span>上一页</span></a></li>
-                        <li><a href="#"><span>1</span></a></li>
-                        <li><a href="#"><span>2</span></a></li>
-                        <li><a href="#"><span>3</span></a></li>
-                        <li><a href="#"><span>4</span></a></li>
-                        <li><a href="#"><span>……</span></a></li>
-                        <li><a href="#"><span>下一页</span></a></li>
-                        <li><a href="#"><span>最后页</span></a></li>
+                        <li><a href="#"><span>&larr; 上一页</span></a></li>
+                        <li style="float:right"><a href="#"><span>下一页 &rarr;</span></a></li>
+                        <div style="clear:both"></div>
                     </ul>
                 </footer>
             </section>
-            <aside class="col-md-3" id="aside">
+            <aside class="col-md-3 col-sm-3" id="aside">
                 <form class="form-inline">
                     <div class="form-group">
                         <div class="input-group">

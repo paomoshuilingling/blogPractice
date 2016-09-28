@@ -82,37 +82,39 @@
     float: right;
 }
 
-#page ul {
+ul#page {
     padding-left: 130px;
 }
-#page ul li{
+
+ul#page li{
     list-style: none;
-    float: left;
-}
-#page ul li{
+    display: inline-block;
     text-decoration: none;
     height: 40px;
-    width: 50px;
+    width: auto;
     text-align: center;
     background-color: white;
     margin: 10px 10px 0 0;
     border-radius: 5px;
     -webkit-border-radius: 5px;
 }
+ul#page li:first-child{
+    margin-left: -115px;
+}
 
-#page ul li:hover {
+ul#page li:hover {
     background-color: darkorchid;
     text-decoration: none;
 }
 
-#page ul li a:hover {
+ul#page li a:hover {
     text-decoration: none;
     color: #fff;
 }
 
-#page ul li a span {
+ul#page li a span {
     display: block;
-    margin: 10px auto;
+    margin: 10px 5px;
 }
 
 #aside {

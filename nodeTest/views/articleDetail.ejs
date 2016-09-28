@@ -17,7 +17,7 @@
     <%- include header %>
     <div class="container">
         <article class="row" id="article">
-            <section class="col-md-9">
+            <section class="col-md-9 col-sm-9 col-xs-12">
                 <article>
                     <aside>
                         <ul>
@@ -28,37 +28,47 @@
                     <header>
                         <a href="javascript:;" class="articleTitle"><%= result.title %></a>
                         <p class="articleMeta">
-                            <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span><%= result.love %>颗心 • 发表于 <%= result.date %> •
+                            <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> <%= result.love %> 颗心 • 发表于 <%= result.date %> •
                             <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> <%= result.scan %> 次围观 •
                             <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 活捉 <%= result.comment %> 条
                         </p>
                     </header>
                     <p><%= result.content %></p>
                 </article>
-                <footer id="page">
-                    <ul>
-                        <li><a href="#"><span>第一页</span></a></li>
-                        <li><a href="#"><span>上一页</span></a></li>
-                        <li><a href="#"><span>1</span></a></li>
-                        <li><a href="#"><span>2</span></a></li>
-                        <li><a href="#"><span>3</span></a></li>
-                        <li><a href="#"><span>4</span></a></li>
-                        <li><a href="#"><span>……</span></a></li>
-                        <li><a href="#"><span>下一页</span></a></li>
-                        <li><a href="#"><span>最后页</span></a></li>
+                <footer>
+                    <div class="panel panel-default remark">
+                        <div class="panel-heading">评论区</div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>
+                                    <p class=""><span>#1楼</span>  <span>作者</span>  <span>时间</span></p>
+                                    <p class="content">内容</p>
+                                </li>
+                                <li>
+                                    <p class=""><span>#2楼</span>  <span>作者</span>  <span>时间</span></p>
+                                    <p class="content">内容</p>
+                                </li>
+                            <!--更多的li-->
+                            </ul>
+                        </div>
+                    </div>
+                    <ul id="page">
+                        <li><a href="#"><span>&larr; 上一篇</span></a></li>
+                        <li style="float:right"><a href="#"><span>下一篇 &rarr;</span></a></li>
                         <div style="clear:both"></div>
                     </ul>
-                    <div class="remark">
-                    评论区
-                    </div>
                 </footer>
             </section>
-            <aside class="col-md-3" id="aside">
-                <div id="search">
-                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                    <input class="su" type="text" placeholder="Keywords"/>
-                    <input class="go" type="submit" value="GO"/>
-                </div>
+            <aside class="col-md-3 col-sm-3 col-xs-3" id="aside">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></div>
+                            <input type="text" class="form-control" id="searchContent" placeholder="searchContent">
+                            <div class="input-group-addon go">GO</div>
+                        </div>
+                    </div>
+                </form>
                 <ul class="href">
                     <li><a class='html' href="/article/articleType?type=H">HTML</a></li>
                     <li><a class='css' href="/article/articleType?type=C">CSS</a></li>
