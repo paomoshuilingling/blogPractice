@@ -335,3 +335,11 @@ Input {
     text-decoration: none;
     font: diagonal-fractions;
 }
+
+#page ul li{
+    list-style-type: none;
+}
+
+#page ul li:first-child{
+    float: left;
+}

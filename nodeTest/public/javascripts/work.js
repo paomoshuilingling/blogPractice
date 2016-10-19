@@ -51,7 +51,7 @@ $(function () {
                     var col = i % 4;
                     switch (col) {
                         case 0:
-                            lis.eq(i).css("left", "5px");
+                            lis.eq(i).css("left", "55px");
                             li_height.C1.push(parseInt(lis.eq(i).css("height")));
                             var row = Math.floor(i / 4);
                             if (!row) {
@@ -66,7 +66,7 @@ $(function () {
                             }
                             break;
                         case 1:
-                            lis.eq(i).css("left", "190px");
+                            lis.eq(i).css("left", "240px");
                             li_height.C2.push(parseInt(lis.eq(i).css("height")));
                             var row = Math.floor(i / 4);
                             if (!row) {
@@ -81,7 +81,7 @@ $(function () {
                             }
                             break;
                         case 2:
-                            lis.eq(i).css("left", "375px");
+                            lis.eq(i).css("left", "425px");
                             li_height.C3.push(parseInt(lis.eq(i).css("height")));
                             var row = Math.floor(i / 4);
                             if (!row) {
@@ -96,7 +96,7 @@ $(function () {
                             }
                             break;
                         case 3:
-                            lis.eq(i).css("left", "560px");
+                            lis.eq(i).css("left", "610px");
                             li_height.C4.push(parseInt(lis.eq(i).css("height")));
                             var row = Math.floor(i / 4);
                             if (!row) {
