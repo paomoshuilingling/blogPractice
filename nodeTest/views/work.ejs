@@ -12,10 +12,10 @@
 </head>
 
 <body>
-    <div>
-        <%- include header %>
-        <article class="container" id="works">
-            <div class="row">
+<div>
+    <%- include header %>
+    <article class="container" id="works">
+        <div class="row">
             <section class="col-md-9">
                 <div id="tabs">
                     <a>ALL</a>
@@ -25,7 +25,7 @@
                     <a>Application</a>
                     <div class="pubuliu">
                         <ul>
-                        <% for(var i=0;i<result.length;i++) {%>
+                            <% for(var i=0;i<result.length;i++) {%>
                             <li>
                                 <canvas></canvas>
                                 <ul>
@@ -34,7 +34,7 @@
                                     <p class="content"><%= result[i].content %></p>
                                 </ul>
                             </li>
-                        <% } %>
+                            <% } %>
                             <!--更多的li-->
                             <div style="clear: both"></div>
                         </ul>
@@ -88,13 +88,13 @@
                     <div style="clear:both;"></div>
                 </div>
             </aside>
-                </div>
-        </article>
-        <%- include footer %>
-    </div>
-    <script type="text/javascript" src="/javascripts/common/jquery.js"></script>
-    <script type="text/javascript" src="/javascripts/common/bootstrap.js"></script>
-    <script type="text/javascript" src="/javascripts/work.js"></script>
+        </div>
+    </article>
+    <%- include footer %>
+</div>
+<script type="text/javascript" src="/javascripts/common/jquery.js"></script>
+<script type="text/javascript" src="/javascripts/common/bootstrap.js"></script>
+<script type="text/javascript" src="/javascripts/work.js"></script>
 </body>
 
 </html>

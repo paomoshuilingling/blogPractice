@@ -3,6 +3,7 @@
     resume.html css
 ****
 ***/
+
 #title {
     float: right;
     width: 34%;
@@ -43,30 +44,52 @@
 #content ul li {
     float: left;
 }
-#content ul li .itemContent{
+
+@media (min-width: 768px) {
+    #content ul li {
+        width: 100%;
+    }
+    #content ul li+li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #content ul li:last-child {
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    #content ul li {
+        width: 33.33333333%;
+    }
+    #content ul li+li {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+#content ul li .itemContent {
     height: 460px;
     background: white;
     border-radius: 5px;
     -webkit-border-radius: 5px;
+    padding: 20px 30px 0 30px;
 }
 
 #content ul li canvas {
     display: block;
     margin: 0 auto;
-    padding-top: 20px;
-    height: 250px;
-    width: 300px;
+    width: 100%;
 }
 
 #content ul li canvas:hover {
     cursor: pointer;
-
 }
 
 #content ul li p {
     font-size: 12px;
     line-height: 170%;
-    padding: 5px 30px 25px 30px;
+    padding: 5px 0 25px 0;
     text-indent: 2em;
 }
 
@@ -90,15 +113,16 @@
     margin-top: 150px;
 }
 
-#introduce .image{
+#introduce .image {
     margin: 0 auto;
     width: 160px;
 }
+
 #introduce .circle2 {
     height: 160px;
     -moz-border-radius: 80px;
     -webkit-border-radius: 80px;
     border-radius: 80px;
-    position: absolute; /*ͼƬ���������ʾ*/
+    position: absolute;
     margin-top: -50px;
 }

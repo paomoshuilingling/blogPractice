@@ -5,10 +5,10 @@
     font-family: sans-serif;
     background: black;
     min-height: 360px;
-    height:100%;
-    min-width: 1225px;
+    height: 100%;
+    width: 100%;
     font-size: 12px;
-    font-family: "Avenir Next",Helvetica,Arial,"Lantinghei SC","Microsoft YaHei",sans-serif;
+    font-family: "Avenir Next", Helvetica, Arial, "Lantinghei SC", "Microsoft YaHei", sans-serif;
 }
 
 #footer hr {
@@ -25,9 +25,11 @@
     text-decoration: none;
     color: aliceblue;
 }
-#footer>ul>li:first-child{
+
+#footer>ul>li:first-child {
     margin-left: 70px;
 }
+
 #footer ul li {
     width: 17%;
     list-style: none;
@@ -43,7 +45,7 @@
 #footer ul li ul li {
     float: none;
     margin: 10px 0;
-    width:220px;
+    width: 220px;
 }
 
 #footer ul li ul li a {

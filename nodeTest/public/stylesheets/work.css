@@ -11,6 +11,7 @@
 #works section {
     float: left;
     margin: 35px 0 100px 0;
+    min-width: 875px;
 }
 
 #top {
